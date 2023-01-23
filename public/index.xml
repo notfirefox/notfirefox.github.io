@@ -2,20 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Snowblog</title>
-    <link>http://notfirefox.github.io/</link>
+    <link>https://notfirefox.dev/</link>
     <description>Recent content on Snowblog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jan 2023 16:10:51 +0100</lastBuildDate><atom:link href="http://notfirefox.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Jan 2023 16:10:51 +0100</lastBuildDate><atom:link href="https://notfirefox.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://notfirefox.github.io/posts/my-first-post/</link>
+      <link>https://notfirefox.dev/posts/my-first-post/</link>
       <pubDate>Mon, 23 Jan 2023 16:10:51 +0100</pubDate>
       
-      <guid>http://notfirefox.github.io/posts/my-first-post/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.
+      <guid>https://notfirefox.dev/posts/my-first-post/</guid>
+      <description>Introduction This is bold text and this is emphasized text.
 Visit the Hugo website!</description>
+      <content:encoded><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>This is <strong>bold</strong> text and this is <em>emphasized</em> text.</p>
+<p>Visit the <a href="https://gohugo.io">Hugo</a> website!</p>
+]]></content:encoded>
     </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://notfirefox.dev/about/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://notfirefox.dev/about/</guid>
+      <description>Information about me</description>
+      <content:encoded><![CDATA[<p>Information about me</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Donate</title>
+      <link>https://notfirefox.dev/donate/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://notfirefox.dev/donate/</guid>
+      <description>Information about donations.</description>
+      <content:encoded><![CDATA[<p>Information about donations.</p>
+]]></content:encoded>
+    </item>
+    
     
   </channel>
 </rss>

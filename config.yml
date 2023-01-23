@@ -4,10 +4,13 @@ theme: "wondermod"
 
 params:
   env: prodcution
-  defaultTheme: auto
+  defaultTheme: dark
   ShowReadingTime: true
   ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowWordCount: true
   ShowFullTextInRSS: true
+  ShowCodeCopyButtons: true
 
   profileMode:
     enabled: true
@@ -27,6 +30,11 @@ params:
     - name: rss
       url: /index.xml
 
+  cover:
+    hidden: false
+    hiddenInList: true
+    hiddenInSingle: false
+
   fuseOpts:
       isCaseSensitive: false
       shouldSort: true
@@ -41,6 +49,13 @@ outputs:
     - HTML
     - RSS
     - JSON
+
+markup:
+  highlight:
+    style: dracula
+    lineNos: false
+    noClasses: false
+    guessSyntax: true
 
 menu:
   main:
@@ -57,3 +72,16 @@ menu:
       url: /search/
       weight: 30
 
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true

@@ -6,6 +6,8 @@ params:
   env: prodcution
   defaultTheme: dark
   ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowFullTextInRSS: true
 
   profileMode:
     enabled: true
@@ -24,6 +26,12 @@ params:
       url: "https://matrix.to/#/@notfirefox:matrix.org"
     - name: rss
       url: /index.xml
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 menu:
   main:

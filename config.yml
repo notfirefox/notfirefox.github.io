@@ -1,5 +1,5 @@
 baseURL: "https://notfirefox.dev"
-title: "Snowblog"
+title: "notfirefox"
 theme: "wondermod"
 
 params:
@@ -14,13 +14,9 @@ params:
 
   profileMode:
     enabled: true
-    title: Snowblog
-    subtitle: My blog posts about security
-    button:
-      - name: About
-        url: about
-      - name: Donate
-        url: donate
+    title: notfirefox
+    subtitle: "Developer and Security Researcher"
+    imageUrl: "https://avatars.githubusercontent.com/u/115221458?v=4"
 
   socialIcons:
     - name: github

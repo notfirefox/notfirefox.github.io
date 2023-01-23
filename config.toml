@@ -1,4 +1,4 @@
-baseURL = 'http://notfirefox.github.io'
+baseURL = 'http://notfirefox.dev'
 languageCode = 'en-us'
 title = 'Snowblog'
 theme = 'wondermod'

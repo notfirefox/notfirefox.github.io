@@ -4,7 +4,7 @@ theme: "wondermod"
 
 params:
   env: prodcution
-  defaultTheme: dark
+  defaultTheme: auto
   ShowReadingTime: true
   ShowPostNavLinks: true
   ShowFullTextInRSS: true
@@ -26,6 +26,15 @@ params:
       url: "https://matrix.to/#/@notfirefox:matrix.org"
     - name: rss
       url: /index.xml
+
+  fuseOpts:
+      isCaseSensitive: false
+      shouldSort: true
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0
+      keys: ["title", "permalink", "summary", "content"]
 
 outputs:
   home:

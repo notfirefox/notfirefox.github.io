@@ -1,0 +1,42 @@
+baseURL: "https://notfirefox.dev"
+title: "Snowblog"
+theme: "wondermod"
+
+params:
+  env: prodcution
+  defaultTheme: dark
+  ShowReadingTime: true
+
+  profileMode:
+    enabled: true
+    title: Snowblog
+    subtitle: My blog posts about security
+    button:
+      - name: About
+        url: about
+      - name: Donate
+        url: donate
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/notfirefox"
+    - name: matrix
+      url: "https://matrix.to/#/@notfirefox:matrix.org"
+    - name: rss
+      url: /index.xml
+
+menu:
+  main:
+    - identifier: Categories
+      name: Categories
+      url: /posts/
+      weight: 10
+    - identifier: Tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: Search
+      name: Search
+      url: /search/
+      weight: 30
+

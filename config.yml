@@ -16,7 +16,7 @@ params:
     enabled: true
     title: notfirefox
     subtitle: "Developer and Security Researcher"
-    imageUrl: "https://avatars.githubusercontent.com/u/115221458?v=4"
+    imageUrl: "/user.jpg"
 
   socialIcons:
     - name: github

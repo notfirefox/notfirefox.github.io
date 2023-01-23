@@ -1,0 +1,3 @@
+[submodule "themes/wondermod"]
+	path = themes/wondermod
+	url = https://github.com/Wonderfall/hugo-WonderMod.git

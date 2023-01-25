@@ -12,8 +12,4 @@ of the files names.</p>
 </span></span></code></pre></div><p>Next we can modify the commands accordingly. Lastly we
 execute each <code>mv</code> command.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">:w !sh
-</span></span></code></pre></div>]]></content:encoded></item><item><title>My First Post</title><link>https://notfirefox.dev/posts/my-first-post/</link><pubDate>Mon, 23 Jan 2023 16:10:51 +0100</pubDate><guid>https://notfirefox.dev/posts/my-first-post/</guid><description>Introduction This is bold text and this is emphasized text.
-Visit the Hugo website!</description><content:encoded><![CDATA[<h2 id="introduction">Introduction</h2>
-<p>This is <strong>bold</strong> text and this is <em>emphasized</em> text.</p>
-<p>Visit the <a href="https://gohugo.io">Hugo</a> website!</p>
-]]></content:encoded></item></channel></rss>
+</span></span></code></pre></div>]]></content:encoded></item></channel></rss>

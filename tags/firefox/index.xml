@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Firefox on notfirefox.dev</title><link>https://notfirefox.dev/tags/firefox/</link><description>Recent content in Firefox on notfirefox.dev</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 26 Jan 2023 22:30:46 +0100</lastBuildDate><atom:link href="https://notfirefox.dev/tags/firefox/index.xml" rel="self" type="application/rss+xml"/><item><title>You Should Be Using Chromium</title><link>https://notfirefox.dev/archive/you-should-be-using-chromium/</link><pubDate>Thu, 26 Jan 2023 22:30:46 +0100</pubDate><guid>https://notfirefox.dev/archive/you-should-be-using-chromium/</guid><description>This is going to be a hot take. Usually under Linux enthusiasts it is common to recommend using Firefox. And while that makes sense under some circumstances I am going to do the direct opposite.
+Linux users vary a lot. But some of them just hate Big Tech. It goes so far that they only recommend Linux distributions like Arch Linux and Debian. The even more extremists only recommend distributions that don&amp;rsquo;t include proprietary code at all.</description><content:encoded><![CDATA[<p>This is going to be a hot take. Usually
+under Linux enthusiasts it is common to
+recommend using Firefox. And while that
+makes sense under some circumstances I
+am going to do the direct opposite.</p>
+<p>Linux users vary a lot. But some of them
+just hate Big Tech. It goes so far that
+they only recommend Linux distributions
+like Arch Linux and Debian. The even
+more extremists only recommend distributions
+that don&rsquo;t include proprietary code at all.</p>
+<p>But hating Big Tech in itself does not lead
+anywhere in my opinion. If you are concerned
+about security, there are several occasions
+where you would want to choose proprietary
+software over open source one. Here is
+an article comparing
+<a href="https://madaidans-insecurities.github.io/firefox-chromium.html">Firefox and Chromium</a>
+regarding their security.</p>
+<p>As it turns out when it comes to security,
+Google is often not necessarily a bad choice.
+They simply have more manpower than Mozilla
+to create a functional and secure browser.
+And it should be noted that Chromium is indeed
+open source.</p>
+<p>Another controversial point that came up
+multiple times is the switch to
+<a href="https://developer.chrome.com/docs/extensions/mv3/intro/">Manifest V3</a>.
+I understand that this might push a lot of Linux
+people even more so over to Firefox. But I would
+seriously try out the adapted variant of your
+favorite content blocker and see how it goes.
+It should also be noted that the new content blocking
+API is also better when it comes to security,
+as described in this article about
+<a href="https://privsec.dev/posts/knowledge/badness-enumeration/">Badness Enumeration</a>.</p>
+<p>After all the people insisting on using Firefox
+are a small minority and I would assume some of them
+try to avoid Big Tech at all costs and therefore limit
+themselves so much that they are not able to consider alternatives.</p>
+]]></content:encoded></item></channel></rss>

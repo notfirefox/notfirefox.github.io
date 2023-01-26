@@ -56,9 +56,9 @@ markup:
 
 menu:
   main:
-    - identifier: Categories
-      name: Categories
-      url: /posts/
+    - identifier: Archive
+      name: Archive
+      url: /archive/
       weight: 10
     - identifier: Tags
       name: Tags

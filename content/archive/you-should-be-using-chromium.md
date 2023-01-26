@@ -1,7 +1,7 @@
 ---
 title: "You Should Be Using Chromium"
 date: 2023-01-26T22:30:46+01:00
-tags: ["Chromium", "Firefox"]
+tags: ["Chromium"]
 ---
 This is going to be a hot take. Usually
 under Linux enthusiasts it is common to 

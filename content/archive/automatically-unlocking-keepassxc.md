@@ -1,7 +1,6 @@
 ---
 title: "Automatically Unlocking KeepassXC"
 date: 2023-01-28T13:01:10+01:00
-draft: true
 ---
 [KeePassXC](https://keepassxc.org/) is a wonderful
 tool to manage passwords completely offline on

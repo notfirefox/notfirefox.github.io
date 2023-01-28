@@ -16,7 +16,7 @@ secret-tool store --label='KeePassXC' 'keepass' 'default'
 ```
 Then we modify the autostart file.
 ```sh
-nvim "~/.config/autostart/org.keepassxc.KeePassXC.desktop"
+nvim "$HOME/.config/autostart/org.keepassxc.KeePassXC.desktop"
 ```
 Where it says `Exec` we want to put our custom command.
 ```sh
@@ -24,7 +24,7 @@ bash -c "secret-tool lookup 'keepass' 'default' | keepassxc --pw-stdin ~/passwor
 ```
 To prevent programs from changing our file we make it immutable.
 ```sh
-sudo chattr +i "~/.config/autostart/org.keepassxc.KeePassXC.desktop"
+sudo chattr +i "$HOME/.config/autostart/org.keepassxc.KeePassXC.desktop"
 ```
 
 Now our KeePassXC file gets automatically unlocked when

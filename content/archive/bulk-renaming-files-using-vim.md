@@ -9,7 +9,7 @@ when someone knows how to use a computer efficiently.
 
 First we are going to open a vim buffer containing all
 of the files names.
-```
+```sh
 ls | nvim -
 ```
 

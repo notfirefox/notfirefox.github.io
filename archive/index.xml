@@ -47,7 +47,7 @@ feature. It shows the real efficiency that is possible
 when someone knows how to use a computer efficiently.</p>
 <p>First we are going to open a vim buffer containing all
 of the files names.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ls | nvim -
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">ls <span class="p">|</span> nvim -
 </span></span></code></pre></div><p>Now we are creating <code>mv</code> commands in each line.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">:%s/.*/mv -i &#34;&amp;&#34; &#34;&amp;&#34;/g
 </span></span></code></pre></div><p>Next we can modify the commands accordingly. Lastly we

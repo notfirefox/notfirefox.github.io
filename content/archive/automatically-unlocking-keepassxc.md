@@ -12,7 +12,7 @@ experience even more seamless.
 
 First we store our KeePassXC password.
 ```sh
-secret-tool store --label='KeePassXC' 'keepass' 'default'
+secret-tool store --label="KeePassXC" "keepass" "default"
 ```
 Then we modify the autostart file.
 ```sh

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Archive on notfirefox.dev</title><link>https://notfirefox.dev/archive/</link><description>Recent content in Archive on notfirefox.dev</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 28 Jan 2023 13:01:10 +0100</lastBuildDate><atom:link href="https://notfirefox.dev/archive/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatically Unlocking KeepassXC</title><link>https://notfirefox.dev/archive/automatically-unlocking-keepassxc/</link><pubDate>Sat, 28 Jan 2023 13:01:10 +0100</pubDate><guid>https://notfirefox.dev/archive/automatically-unlocking-keepassxc/</guid><description>KeePassXC is a wonderful tool to manage passwords completely offline on a local device. Furthermore it greatly integrates into the KDE Desktop whereas one doesn&amp;rsquo;t notice that it is a separate app. For added convenience there is a trick to make the whole experience even more seamless.
 First we store our KeePassXC password.
-secret-tool store --label=&amp;#39;KeePassXC&amp;#39; &amp;#39;keepass&amp;#39; &amp;#39;default&amp;#39; Then we modify the autostart file.
+secret-tool store --label=&amp;#34;KeePassXC&amp;#34; &amp;#34;keepass&amp;#34; &amp;#34;default&amp;#34; Then we modify the autostart file.
 nvim &amp;#34;$HOME/.config/autostart/org.keepassxc.KeePassXC.desktop&amp;#34; Where it says Exec we want to put our custom command.</description><content:encoded><![CDATA[<p><a href="https://keepassxc.org/">KeePassXC</a> is a wonderful
 tool to manage passwords completely offline on
 a local device. Furthermore it greatly integrates
@@ -9,7 +9,7 @@ that it is a separate app. For added convenience
 there is a trick to make the whole
 experience even more seamless.</p>
 <p>First we store our KeePassXC password.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">secret-tool store --label<span class="o">=</span><span class="s1">&#39;KeePassXC&#39;</span> <span class="s1">&#39;keepass&#39;</span> <span class="s1">&#39;default&#39;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">secret-tool store --label<span class="o">=</span><span class="s2">&#34;KeePassXC&#34;</span> <span class="s2">&#34;keepass&#34;</span> <span class="s2">&#34;default&#34;</span>
 </span></span></code></pre></div><p>Then we modify the autostart file.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">nvim <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">/.config/autostart/org.keepassxc.KeePassXC.desktop&#34;</span>
 </span></span></code></pre></div><p>Where it says <code>Exec</code> we want to put our custom command.</p>

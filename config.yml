@@ -22,8 +22,6 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/notfirefox"
-    - name: matrix
-      url: "https://matrix.to/#/@notfirefox:matrix.org"
     - name: rss
       url: /index.xml
 

@@ -1,7 +1,6 @@
 ---
 title: "Imagine Paying for Music"
 date: 2023-02-04T22:01:45+01:00
-draft: true
 ---
 So I have written a new script. It wraps
 around [yt-dlp](https://github.com/yt-dlp/yt-dlp)

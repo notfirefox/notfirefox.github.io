@@ -10,5 +10,5 @@ It downloads songs and albums from
 album artwork and audio metadata. Here is an example
 demonstrating how trivial the usage of this script is.
 ```sh
-mdl "https://music.youtube.com/playlist?list=OLAK5uy_npIYOGK225kYobY4DZt3YGJCYihQf1yVU"
+mdl "https://music.youtube.com/playlist?list=OLAK5uy_kwSFpSgVWClQPCf-wK6Q1J8m8fDr4SrKM"
 ```

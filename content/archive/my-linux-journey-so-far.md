@@ -88,7 +88,7 @@ Why is that useful? Arch Linux has a lot of development packages
 available directly in the official repositories such as `bash-language-server`,
 `gopls`, `lua-language-server`. This saves me the hassle of trying to
 figure out how to install a language server I need. On Arch I just 
-now it works. Also those packages are installed as a user Distrobox.
+know it works. Also those packages are installed as a user Distrobox.
 That means that they are not part of the host OS. And to me
 it kind of makes sense to put those cli applications inside
 of a separate development environment. They don't need to be part

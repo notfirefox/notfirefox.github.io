@@ -1,4 +1,102 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>notfirefox.dev</title><link>https://notfirefox.dev/</link><description>Recent content on notfirefox.dev</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 04 Feb 2023 22:01:45 +0100</lastBuildDate><atom:link href="https://notfirefox.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Imagine Paying for Music</title><link>https://notfirefox.dev/archive/imagine-paying-for-music/</link><pubDate>Sat, 04 Feb 2023 22:01:45 +0100</pubDate><guid>https://notfirefox.dev/archive/imagine-paying-for-music/</guid><description>So I have written a new script. It wraps around yt-dlp and it&amp;rsquo;s called mdl. It downloads songs and albums from YouTube Music including album artwork and audio metadata. Here is an example demonstrating how trivial the usage of this script is.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>notfirefox.dev</title><link>https://notfirefox.dev/</link><description>Recent content on notfirefox.dev</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 09 Feb 2023 22:36:01 +0100</lastBuildDate><atom:link href="https://notfirefox.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>My Linux Journey So Far</title><link>https://notfirefox.dev/archive/my-linux-journey-so-far/</link><pubDate>Thu, 09 Feb 2023 22:36:01 +0100</pubDate><guid>https://notfirefox.dev/archive/my-linux-journey-so-far/</guid><description>My Linux journey began somewhere with Ubuntu. That was back then when Ubuntu was very popular. Later on I made my first experiences with KDE on Kubuntu. Since then I have mostly been using KDE as my main desktop environment. There were times when I tried out Gnome and also window managers like i3 or Sway. But they never stuck.
+At some point I was fascinated by rolling release distributions like Arch Linux.</description><content:encoded><![CDATA[<p>My Linux journey began somewhere with <a href="https://ubuntu.com">Ubuntu</a>. That
+was back then when Ubuntu was very popular. Later on
+I made my first experiences with KDE on <a href="https://kubuntu.org">Kubuntu</a>. Since
+then I have mostly been using <a href="https://kde.org">KDE</a> as my main desktop environment.
+There were times when I tried out <a href="https://www.gnome.org">Gnome</a> and
+also window managers like <a href="https://i3wm.org">i3</a> or
+<a href="https://swaywm.org">Sway</a>. But they never stuck.</p>
+<p>At some point I was fascinated by rolling release distributions like
+<a href="https://archlinux.org">Arch Linux</a>. But of course back then there was
+no <a href="https://wiki.archlinux.org/title/archinstall">archinstall</a>
+and therefore I had my troubles getting it installed properly.
+So I tried out <a href="https://manjaro.org">Manjaro</a> and the experience wasn&rsquo;t that bad at all.</p>
+<p>And then there was a time where I was using <a href="https://www.apple.com/macos">macOS</a>.
+Yes, I&rsquo;m being serious. It wasn&rsquo;t horrible. But it wasn&rsquo;t good either. I felt so
+lost on macOS and tried to adopt the macOS way of doing things.
+The good old window management I have been used to since
+<a href="https://en.wikipedia.org/wiki/Windows_7">Windows 7</a> or
+<a href="https://en.wikipedia.org/wiki/Windows_XP">Windows XP</a> days is not available on macOS.
+There is no native alt tabbing on macOS. You swipe up with three
+fingers on your touchpad and suddenly all of your applications appear
+<a href="https://support.apple.com/en-us/HT204100">in a unorganized way on your screen</a>.
+If you have multiple instances of a program open and click on the icon in the dock
+it opens up all of them. No way to select which one you want right now.
+Window management was downright bad for my preferred way of using a computer.
+And the macOS way of doing things did not feel efficient in any way compared to
+my old ways of doing things. Therefore I switched again.</p>
+<p>Enter Arch Linux. I have been very happy on Arch. But I wanted
+to try out <a href="https://get.opensuse.org/tumbleweed">openSUSE Tumbleweed</a>.
+So I did. And openSUSE Tumbleweed is amazing. I am still not sure which
+of both I like better. But it&rsquo;s probably Tumbleweed. Though I have to say
+<a href="https://wiki.archlinux.org/title/pacman">pacman</a> is so
+much faster than <a href="https://en.opensuse.org/Portal:Zypper">zypper</a>.
+But the experience on Arch is generally
+so much more DIY. I liked that. But I also like the fact that
+the Tumbleweed installation by itself felt more stable for no apparent
+reason. It just feels like a polished product. Whereas Arch always
+feels incomplete to me.</p>
+<p>With the switch to Tumbleweed yet another transition took place.
+I got into the <a href="https://www.opensuse.org/">openSUSE</a> ecosystem.
+I also thought about using openSUSE Leap.
+But I stayed with the <a href="https://en.wikipedia.org/wiki/Rolling_release">rolling release</a>
+philosophy. My last transition should introduce something completely new.
+And that is called an immutable OS. I am certainly not an expert
+on that topic so don&rsquo;t quote me on the following. What differentiates
+it from regular distributions is that the root filesystem is mounted
+as read only. This prevents malicious or accidental modifications
+to the operating system. Changes to the running operating system
+are not permitted. Changes are applied to a snapshot that will
+be booted on next the next boot. Automatic checks are applied
+to determine if the snapshot is functional, otherwise the previous
+snapshot will be loaded. Thus the host OS is able to update
+in an automated fashion and rollback by itself if something
+goes wrong. The host system is separated and supposed
+to stay small. Applications are preferably installed using
+<a href="https://flatpak.org">Flatpak</a>. Development environments
+can be set up using <a href="https://github.com/89luca89/distrobox">Distrobox</a>.</p>
+<p>It&rsquo;s been a long way. But I&rsquo;m finally fairly happy where I&rsquo;m at
+currently. I want to use technology that I can also recommend
+to other people. And I would generally not recommend anything
+based on <a href="https://www.debian.org">Debian</a> such as Ubuntu or Kubuntu.
+Manjaro has its own issues. Arch Linux is not usable for most people.
+Tumbleweed is awesome. But I don&rsquo;t know if I would recommend Tumbleweed
+to regular people. Managing packages is not something regular people
+want to do. And graphical frontends more often than not failed for me when trying
+to update the system. This is due to the fact that e.g. packages might
+change vendor when you have the packman repo enabled. This currently
+cannot be handled by Discover, which is the graphical frontend for KDE.
+<a href="https://microos.opensuse.org">MicroOS</a> can update itself.
+Not only that it can also determine by itself if the update has been successful.
+If the checks consider the update faulty they will automatically rollback
+to the previous snapshot. Programs like web browsers and user focused programs
+can simply be installed as Flatpaks using Discover and that works reliably.</p>
+<p>Advanced features are available using containers. I am running
+Arch Linux inside of my MicroOS installation using Distrobox.
+So every time I run <code>nvim</code>, <code>hugo</code> or other cli applications
+it actually utilizes the applications installed inside of my Distrobox.
+Why is that useful? Arch Linux has a lot of development packages
+available directly in the official repositories such as <code>bash-language-server</code>,
+<code>gopls</code>, <code>lua-language-server</code>. This saves me the hassle of trying to
+figure out how to install a language server I need. On Arch I just
+now it works. Also those packages are installed as a user Distrobox.
+That means that they are not part of the host OS. And to me
+it kind of makes sense to put those cli applications inside
+of a separate development environment. They don&rsquo;t need to be part
+of the core OS.</p>
+<p>Lets wrap it up. I think that MicroOS is a promising attempt
+to make Linux more accessible to more people. But it also makes
+the process of managing a system less of a hassle. Updates are
+going to work. I know that. If they don&rsquo;t the system will rollback
+for me. Applications are installed via Flatpak. The development
+environment sits inside of an Arch Linux container. I am surprised
+how easy the transition from Tumbleweed to MicroOS actually was.
+And although the MicroOS Desktop KDE variant is currently officially
+still in alpha state, it feels just as solid if not even more so than
+Tumbleweed. But it&rsquo;s not quite polished yet, e.g. I expected <code>kcm_sddm</code>
+to be preinstalled on KDE. Going on forward I am convinced that
+immutable operating systems and especially MicroOS are the way to go!</p>
+]]></content:encoded></item><item><title>Imagine Paying for Music</title><link>https://notfirefox.dev/archive/imagine-paying-for-music/</link><pubDate>Sat, 04 Feb 2023 22:01:45 +0100</pubDate><guid>https://notfirefox.dev/archive/imagine-paying-for-music/</guid><description>So I have written a new script. It wraps around yt-dlp and it&amp;rsquo;s called mdl. It downloads songs and albums from YouTube Music including album artwork and audio metadata. Here is an example demonstrating how trivial the usage of this script is.
 mdl &amp;#34;https://music.youtube.com/playlist?list=OLAK5uy_kwSFpSgVWClQPCf-wK6Q1J8m8fDr4SrKM&amp;#34;</description><content:encoded><![CDATA[<p>So I have written a new script. It wraps
 around <a href="https://github.com/yt-dlp/yt-dlp">yt-dlp</a>
 and it&rsquo;s called <a href="https://github.com/notfirefox/mdl">mdl</a>.

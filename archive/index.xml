@@ -77,7 +77,7 @@ So every time I run <code>nvim</code>, <code>hugo</code> or other CLI applicatio
 it actually utilizes the applications installed inside of my Distrobox.
 Why is that useful? Arch Linux has a lot of development packages
 available directly in the official repositories such as <code>bash-language-server</code>,
-<code>gopls</code>, <code>lua-language-server</code>. This saves me the hassle of trying to
+<code>gopls</code>, <code>github-cli</code>. This saves me the hassle of trying to
 figure out how to install a language server I need. On Arch I just
 know it works. Also those packages are installed inside of an user Distrobox.
 That means that they are not part of the host OS. And to me

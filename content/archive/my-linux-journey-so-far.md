@@ -63,8 +63,8 @@ to stay small. Applications are preferably installed using
 [Flatpak](https://flatpak.org). Development environments 
 can be set up using [Distrobox](https://github.com/89luca89/distrobox).
 
-It's been a long way. But I'm finally fairly happy where I'm at 
-currently. I want to use technology that I can also recommend
+It's been a long way. But I'm finally fairly happy where I'm 
+currently at. I want to use technology that I can also recommend
 to other people. And I would generally not recommend anything 
 based on [Debian](https://www.debian.org) such as Ubuntu or Kubuntu. 
 Manjaro has its own issues. Arch Linux is not usable for most people. 

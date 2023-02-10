@@ -55,8 +55,8 @@ goes wrong. The host system is separated and supposed
 to stay small. Applications are preferably installed using
 <a href="https://flatpak.org">Flatpak</a>. Development environments
 can be set up using <a href="https://github.com/89luca89/distrobox">Distrobox</a>.</p>
-<p>It&rsquo;s been a long way. But I&rsquo;m finally fairly happy where I&rsquo;m at
-currently. I want to use technology that I can also recommend
+<p>It&rsquo;s been a long way. But I&rsquo;m finally fairly happy where I&rsquo;m
+currently at. I want to use technology that I can also recommend
 to other people. And I would generally not recommend anything
 based on <a href="https://www.debian.org">Debian</a> such as Ubuntu or Kubuntu.
 Manjaro has its own issues. Arch Linux is not usable for most people.

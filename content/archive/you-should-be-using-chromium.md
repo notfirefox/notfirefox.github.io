@@ -48,3 +48,9 @@ After all the people insisting on using Firefox
 are a small minority and I would assume some of them
 try to avoid Big Tech at all costs and therefore limit
 themselves so much that they are not able to consider alternatives.
+
+Lastly I will show you how to fix the weird cursor fixes
+apparent when using Chromium as a Flatpak.
+```sh
+flatpak override --user --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons
+```

@@ -82,7 +82,7 @@ can simply be installed as Flatpaks using Discover and that works reliably.
 
 Advanced features are available using containers. I am running
 Arch Linux inside of my MicroOS installation using Distrobox.
-So every time I run `nvim`, `hugo` or other cli applications
+So every time I run `nvim`, `hugo` or other CLI applications
 it actually utilizes the applications installed inside of my Distrobox.
 Why is that useful? Arch Linux has a lot of development packages
 available directly in the official repositories such as `bash-language-server`,
@@ -90,7 +90,7 @@ available directly in the official repositories such as `bash-language-server`,
 figure out how to install a language server I need. On Arch I just 
 know it works. Also those packages are installed inside of an user Distrobox.
 That means that they are not part of the host OS. And to me
-it kind of makes sense to put those cli applications inside
+it kind of makes sense to put those CLI applications inside
 of a separate development environment. They don't need to be part
 of the core OS.
 

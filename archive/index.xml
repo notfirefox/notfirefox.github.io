@@ -152,7 +152,10 @@ as described in this article about
 are a small minority and I would assume some of them
 try to avoid Big Tech at all costs and therefore limit
 themselves so much that they are not able to consider alternatives.</p>
-]]></content:encoded></item><item><title>Bulk Renaming Files Using Vim</title><link>https://notfirefox.dev/archive/bulk-renaming-files-using-vim/</link><pubDate>Wed, 25 Jan 2023 20:16:02 +0100</pubDate><guid>https://notfirefox.dev/archive/bulk-renaming-files-using-vim/</guid><description>Bulk renaming files is a really cool and especially useful feature. It shows the real efficiency that is possible when someone knows how to use a computer efficiently.
+<p>Lastly I will show you how to fix the weird cursor fixes
+apparent when using Chromium as a Flatpak.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">flatpak override --user --env<span class="o">=</span><span class="nv">XCURSOR_PATH</span><span class="o">=</span>/run/host/user-share/icons:/run/host/share/icons
+</span></span></code></pre></div>]]></content:encoded></item><item><title>Bulk Renaming Files Using Vim</title><link>https://notfirefox.dev/archive/bulk-renaming-files-using-vim/</link><pubDate>Wed, 25 Jan 2023 20:16:02 +0100</pubDate><guid>https://notfirefox.dev/archive/bulk-renaming-files-using-vim/</guid><description>Bulk renaming files is a really cool and especially useful feature. It shows the real efficiency that is possible when someone knows how to use a computer efficiently.
 First we are going to open a vim buffer containing all of the files names.
 ls | nvim - Now we are creating mv commands in each line.
 :%s/.*/mv -i &amp;#34;&amp;amp;&amp;#34; &amp;#34;&amp;amp;&amp;#34;/g Next we can modify the commands accordingly. Lastly we execute each mv command.</description><content:encoded><![CDATA[<p>Bulk renaming files is a really cool and especially useful

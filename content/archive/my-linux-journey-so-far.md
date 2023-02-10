@@ -54,7 +54,7 @@ it from regular distributions is that the root filesystem is mounted
 as read only. This prevents malicious or accidental modifications
 to the operating system. Changes to the running operating system
 are not permitted. Changes are applied to a snapshot that will
-be booted on next the next boot. Automatic checks are applied
+be booted on the next boot. Automatic checks are applied
 to determine if the snapshot is functional, otherwise the previous
 snapshot will be loaded. Thus the host OS is able to update
 in an automated fashion and rollback by itself if something 

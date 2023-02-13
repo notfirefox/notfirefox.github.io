@@ -19,5 +19,5 @@ wget "https://raw.githubusercontent.com/notfirefox/mdl/main/mdl" -O ~/.local/bin
 ```
 Then make the script executable.
 ```sh
-chmod +x "$HOME/local/bin/mdl"
+chmod +x "$HOME/.local/bin/mdl"
 ```

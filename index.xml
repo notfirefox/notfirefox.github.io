@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>notfirefox.dev</title><link>https://notfirefox.dev/</link><description>Recent content on notfirefox.dev</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 09 Feb 2023 22:36:01 +0100</lastBuildDate><atom:link href="https://notfirefox.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>My Linux Journey So Far</title><link>https://notfirefox.dev/archive/my-linux-journey-so-far/</link><pubDate>Thu, 09 Feb 2023 22:36:01 +0100</pubDate><guid>https://notfirefox.dev/archive/my-linux-journey-so-far/</guid><description>My Linux journey began somewhere with Ubuntu. That was back then when Ubuntu was very popular. Later on I made my first experiences with KDE on Kubuntu. Since then I have mostly been using KDE as my main desktop environment. There were times when I tried out Gnome and also window managers like i3 or Sway. But they never stuck.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>notfirefox.dev</title><link>https://notfirefox.dev/</link><description>Recent content on notfirefox.dev</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 13 Feb 2023 16:15:54 +0100</lastBuildDate><atom:link href="https://notfirefox.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Why I'm Not Switching to iOS</title><link>https://notfirefox.dev/archive/why-im-not-switching-to-ios/</link><pubDate>Mon, 13 Feb 2023 16:15:54 +0100</pubDate><guid>https://notfirefox.dev/archive/why-im-not-switching-to-ios/</guid><description>TLDR
+Phones are too expensive Have no replaceable battery Music transfer requires iTunes Still using lightning connector So let me elaborate on each of those points a bit. An iPhone is generally more expensive and I&amp;rsquo;d argue they are currently too expensive. Maybe they&amp;rsquo;re also compensating due to inflation, but the prices especially for the iPhone SE are still too high.
+My second point does not directly address the iPhone. The whole market moved on but the EU pushes back and it seems like that we can have user replaceable batteries in the future.</description><content:encoded><![CDATA[<p><strong>TLDR</strong></p>
+<ul>
+<li>Phones are too expensive</li>
+<li>Have no replaceable battery</li>
+<li>Music transfer requires iTunes</li>
+<li>Still using lightning connector</li>
+</ul>
+<p>So let me elaborate on each of those points a bit.
+An iPhone is generally more expensive and I&rsquo;d argue
+they are currently too expensive. Maybe they&rsquo;re also
+compensating due to inflation, but the prices especially
+for the iPhone SE are still too high.</p>
+<p>My second point does not directly address the iPhone.
+The whole market moved on but the EU pushes back and
+it seems like that we can have user replaceable batteries
+in the future. Therefore I will wait until new phones
+have replaceable batteries before I upgrade my phone again.</p>
+<p>Okay the third point is annoying and it is the main selling point
+of Android phones for me. I want to put my music on my phone
+without using iTunes. I exclusively use Linux simply due to the
+reason that I like the KDE desktop best. I have talked about
+my reasoning why I don&rsquo;t use macOS anymore in my article about
+<a href="https://notfirefox.dev/archive/my-linux-journey-so-far/">My Linux Journey So Far</a>.
+And while I would be fine on Windows I&rsquo;ve become accustomed to the
+Linux terminal and <a href="https://neovim.io/">Neovim</a>. I would simply
+feel less efficient on Windows and I would probably be using the
+<a href="https://learn.microsoft.com/en-us/windows/wsl/install">WSL</a> most
+of the times. Putting music on an iPhone using Linux is a huge
+pain. iTunes does not run on Linux and one has run virtualisation
+of some kind. And there&rsquo;s no guarantee that it is going to work
+in the end. And why? Because Apple makes it hard for us to put
+our own music on our own devices. Yes, there is VLC. But if I spend
+a couple hundred on a mobile device I want to put my music on it
+and use the native mobile player and not some aftermarket solution.</p>
+<p>Mobile devices should use USB-C. There is no logical reason
+for Apple except profit to still use the old lighting
+connector for iPhones.</p>
+<p>So if all of those issues are addressed some day I might
+switch back to an iPhone. I simply like their UI better than
+Android. I&rsquo;m currently using <a href="https://grapheneos.org/">GrapheneOS</a>
+and its UI is utterly inconsistent. But I don&rsquo;t like stock
+Android either. iOS just has a very intuitive and consistent
+user interface. But as long as iOS is a closed off system
+I don&rsquo;t see myself switching to it. I&rsquo;d at least want to be
+able to put my own music on it. And it would also be nice
+to use a browser engine different than <a href="https://webkit.org/">WebKit</a>.
+And no I don&rsquo;t want additional browser engines. I want to be able
+to choose which browser engine is used on a system level.</p>
+]]></content:encoded></item><item><title>My Linux Journey So Far</title><link>https://notfirefox.dev/archive/my-linux-journey-so-far/</link><pubDate>Thu, 09 Feb 2023 22:36:01 +0100</pubDate><guid>https://notfirefox.dev/archive/my-linux-journey-so-far/</guid><description>My Linux journey began somewhere with Ubuntu. That was back then when Ubuntu was very popular. Later on I made my first experiences with KDE on Kubuntu. Since then I have mostly been using KDE as my main desktop environment. There were times when I tried out Gnome and also window managers like i3 or Sway. But they never stuck.
 At some point I was fascinated by rolling release distributions like Arch Linux.</description><content:encoded><![CDATA[<p>My Linux journey began somewhere with <a href="https://ubuntu.com">Ubuntu</a>. That
 was back then when Ubuntu was very popular. Later on
 I made my first experiences with KDE on <a href="https://kubuntu.org">Kubuntu</a>. Since

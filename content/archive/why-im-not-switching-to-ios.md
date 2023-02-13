@@ -1,7 +1,6 @@
 ---
 title: "Why I'm Not Switching to iOS"
 date: 2023-02-13T16:15:54+01:00
-draft: true
 ---
 **TLDR**
 - Phones are too expensive
@@ -19,9 +18,9 @@ My second point does not directly address the iPhone.
 The whole market moved on but the EU pushes back and
 it seems like that we can have user replaceable batteries
 in the future. Therefore I will wait until new phones
-have user replaceable batteries before I upgrade my phone again.
+have replaceable batteries before I upgrade my phone again.
 
-Okay the third point is annoying and it the main selling point
+Okay the third point is annoying and it is the main selling point
 of Android phones for me. I want to put my music on my phone
 without using iTunes. I exclusively use Linux simply due to the
 reason that I like the KDE desktop best. I have talked about

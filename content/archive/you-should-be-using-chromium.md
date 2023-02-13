@@ -1,7 +1,7 @@
 ---
 title: "You Should Be Using Chromium"
 date: 2023-01-26T22:30:46+01:00
-tags: ["Chromium"]
+tags: ["Chromium", "Linux"]
 ---
 This is going to be a hot take. Usually
 under Linux enthusiasts it is common to 
@@ -48,9 +48,3 @@ After all the people insisting on using Firefox
 are a small minority and I would assume some of them
 try to avoid Big Tech at all costs and therefore limit
 themselves so much that they are not able to consider alternatives.
-
-Lastly I will show you how to fix the weird cursor fixes
-apparent when using Chromium as a Flatpak.
-```sh
-flatpak override --user --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons
-```

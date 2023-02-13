@@ -1,7 +1,7 @@
 ---
 title: "Bulk Renaming Files Using Vim"
 date: 2023-01-25T20:16:02+01:00
-tags: ["Vim"]
+tags: ["Linux", "Shell", "Vim"]
 ---
 Bulk renaming files is a really cool and especially useful
 feature. It shows the real efficiency that is possible

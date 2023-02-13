@@ -1,6 +1,7 @@
 ---
 title: "Why I'm Not Switching to iOS"
 date: 2023-02-13T16:15:54+01:00
+tags: ["Android", "iOS"]
 ---
 **TLDR**
 - Phones are too expensive

@@ -1,6 +1,7 @@
 ---
 title: "My Linux Journey So Far"
 date: 2023-02-09T22:36:01+01:00
+tags: ["Linux", "macOS"]
 ---
 
 My Linux journey began somewhere with [Ubuntu](https://ubuntu.com). That

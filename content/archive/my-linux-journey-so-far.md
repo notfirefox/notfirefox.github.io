@@ -2,6 +2,7 @@
 title: "My Linux Journey So Far"
 date: 2023-02-09T22:36:01+01:00
 ---
+
 My Linux journey began somewhere with [Ubuntu](https://ubuntu.com). That
 was back then when Ubuntu was very popular. Later on
 I made my first experiences with KDE on [Kubuntu](https://kubuntu.org). Since
@@ -41,7 +42,7 @@ But the experience on Arch is generally
 so much more DIY. I liked that. But I also like the fact that
 the Tumbleweed installation by itself felt more stable for no apparent
 reason. It just feels like a polished product. Whereas Arch always
-feels incomplete to me. 
+feels incomplete to me.
 
 With the switch to Tumbleweed yet another transition took place.
 I got into the [openSUSE](https://www.opensuse.org/) ecosystem. 

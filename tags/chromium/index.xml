@@ -39,7 +39,4 @@ as described in this article about
 are a small minority and I would assume some of them
 try to avoid Big Tech at all costs and therefore limit
 themselves so much that they are not able to consider alternatives.</p>
-<p>Lastly I will show you how to fix the weird cursor fixes
-apparent when using Chromium as a Flatpak.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">flatpak override --user --env<span class="o">=</span><span class="nv">XCURSOR_PATH</span><span class="o">=</span>/run/host/user-share/icons:/run/host/share/icons
-</span></span></code></pre></div>]]></content:encoded></item></channel></rss>
+]]></content:encoded></item></channel></rss>

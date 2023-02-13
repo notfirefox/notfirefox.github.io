@@ -149,7 +149,7 @@ immutable operating systems and especially MicroOS are the way to go!</p>
 ]]></content:encoded></item><item><title>Imagine Paying for Music</title><link>https://notfirefox.dev/archive/imagine-paying-for-music/</link><pubDate>Sat, 04 Feb 2023 22:01:45 +0100</pubDate><guid>https://notfirefox.dev/archive/imagine-paying-for-music/</guid><description>So I have written a new script. It wraps around yt-dlp and it&amp;rsquo;s called mdl. It downloads songs and albums from YouTube Music including album artwork and audio metadata. Here is an example demonstrating how trivial the usage of this script is.
 mdl &amp;#34;https://music.youtube.com/playlist?list=OLAK5uy_kwSFpSgVWClQPCf-wK6Q1J8m8fDr4SrKM&amp;#34; To install it just put the script into your ~/.local/bin directory.
 wget &amp;#34;https://raw.githubusercontent.com/notfirefox/mdl/main/mdl&amp;#34; -O ~/.local/bin/mdl Then make the script executable.
-chmod +x &amp;#34;$HOME/local/bin/mdl&amp;#34;</description><content:encoded><![CDATA[<p>So I have written a new script. It wraps
+chmod +x &amp;#34;$HOME/.local/bin/mdl&amp;#34;</description><content:encoded><![CDATA[<p>So I have written a new script. It wraps
 around <a href="https://github.com/yt-dlp/yt-dlp">yt-dlp</a>
 and it&rsquo;s called <a href="https://github.com/notfirefox/mdl">mdl</a>.
 It downloads songs and albums from
@@ -160,7 +160,7 @@ demonstrating how trivial the usage of this script is.</p>
 </span></span></code></pre></div><p>To install it just put the script into your <code>~/.local/bin</code> directory.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">wget <span class="s2">&#34;https://raw.githubusercontent.com/notfirefox/mdl/main/mdl&#34;</span> -O ~/.local/bin/mdl
 </span></span></code></pre></div><p>Then make the script executable.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">chmod +x <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">/local/bin/mdl&#34;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">chmod +x <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">/.local/bin/mdl&#34;</span>
 </span></span></code></pre></div>]]></content:encoded></item><item><title>You Should Be Using Chromium</title><link>https://notfirefox.dev/archive/you-should-be-using-chromium/</link><pubDate>Thu, 26 Jan 2023 22:30:46 +0100</pubDate><guid>https://notfirefox.dev/archive/you-should-be-using-chromium/</guid><description>This is going to be a hot take. Usually under Linux enthusiasts it is common to recommend using Firefox. And while that makes sense under some circumstances I am going to do the direct opposite.
 Linux users vary a lot. But some of them just hate Big Tech. It goes so far that they only recommend Linux distributions like Arch Linux and Debian. The even more extremists only recommend distributions that don&amp;rsquo;t include proprietary code at all.</description><content:encoded><![CDATA[<p>This is going to be a hot take. Usually
 under Linux enthusiasts it is common to

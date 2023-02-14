@@ -9,12 +9,16 @@ recommend using Firefox. And while that
 makes sense under some circumstances I
 am going to do the direct opposite.
 
+## Introduction
+
 Linux users vary a lot. But some of them
 just hate Big Tech. It goes so far that
 they only recommend Linux distributions
 like Arch Linux and Debian. The even 
 more extremists only recommend distributions
 that don't include proprietary code at all.
+
+## Security
 
 But hating Big Tech in itself does not lead
 anywhere in my opinion. If you are concerned
@@ -32,6 +36,8 @@ to create a functional and secure browser.
 And it should be noted that Chromium is indeed
 open source. 
 
+## Manifest V3
+
 Another controversial point that came up
 multiple times is the switch to 
 [Manifest V3](https://developer.chrome.com/docs/extensions/mv3/intro/).
@@ -43,6 +49,8 @@ It should also be noted that the new content blocking
 API is also better when it comes to security,
 as described in this article about
 [Badness Enumeration](https://privsec.dev/posts/knowledge/badness-enumeration/).
+
+## Conclusion
 
 After all the people insisting on using Firefox
 are a small minority and I would assume some of them

@@ -12,6 +12,7 @@ params:
   ShowWordCount: true
   ShowFullTextInRSS: true
   ShowCodeCopyButtons: true
+  ShowToc: true
 
   profileMode:
     enabled: true

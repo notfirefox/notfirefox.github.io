@@ -11,7 +11,6 @@ the reasons why I'm not switching.
 
 ## Price
 
-So let me elaborate on each of those points a bit.
 An iPhone is generally more expensive and I'd argue
 they are currently too expensive. Maybe they're also
 compensating due to inflation, but the prices especially

@@ -1,16 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Linux on notfirefox.dev</title><link>https://notfirefox.dev/tags/linux/</link><description>Recent content in Linux on notfirefox.dev</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 09 Feb 2023 22:36:01 +0100</lastBuildDate><atom:link href="https://notfirefox.dev/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>My Linux Journey So Far</title><link>https://notfirefox.dev/archive/my-linux-journey-so-far/</link><pubDate>Thu, 09 Feb 2023 22:36:01 +0100</pubDate><guid>https://notfirefox.dev/archive/my-linux-journey-so-far/</guid><description>My Linux journey began somewhere with Ubuntu. That was back then when Ubuntu was very popular. Later on I made my first experiences with KDE on Kubuntu. Since then I have mostly been using KDE as my main desktop environment. There were times when I tried out Gnome and also window managers like i3 or Sway. But they never stuck.
-At some point I was fascinated by rolling release distributions like Arch Linux.</description><content:encoded><![CDATA[<p>My Linux journey began somewhere with <a href="https://ubuntu.com">Ubuntu</a>. That
-was back then when Ubuntu was very popular. Later on
-I made my first experiences with KDE on <a href="https://kubuntu.org">Kubuntu</a>. Since
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Linux on notfirefox.dev</title><link>https://notfirefox.dev/tags/linux/</link><description>Recent content in Linux on notfirefox.dev</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 09 Feb 2023 22:36:01 +0100</lastBuildDate><atom:link href="https://notfirefox.dev/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>My Linux Journey So Far</title><link>https://notfirefox.dev/archive/my-linux-journey-so-far/</link><pubDate>Thu, 09 Feb 2023 22:36:01 +0100</pubDate><guid>https://notfirefox.dev/archive/my-linux-journey-so-far/</guid><description>Ubuntu My Linux journey began somewhere with Ubuntu. That was back then when Ubuntu was very popular.
+Kubuntu Later on I made my first experiences with KDE on Kubuntu. Since then I have mostly been using KDE as my main desktop environment. There were times when I tried out Gnome and also window managers like i3 or Sway. But they never stuck.
+Manjaro At some point I was fascinated by rolling release distributions like Arch Linux.</description><content:encoded><![CDATA[<h2 id="ubuntu">Ubuntu</h2>
+<p>My Linux journey began somewhere with <a href="https://ubuntu.com">Ubuntu</a>.
+That was back then when Ubuntu was very popular.</p>
+<h2 id="kubuntu">Kubuntu</h2>
+<p>Later on I made my first experiences with KDE on <a href="https://kubuntu.org">Kubuntu</a>. Since
 then I have mostly been using <a href="https://kde.org">KDE</a> as my main desktop environment.
 There were times when I tried out <a href="https://www.gnome.org">Gnome</a> and
 also window managers like <a href="https://i3wm.org">i3</a> or
 <a href="https://swaywm.org">Sway</a>. But they never stuck.</p>
+<h2 id="manjaro">Manjaro</h2>
 <p>At some point I was fascinated by rolling release distributions like
 <a href="https://archlinux.org">Arch Linux</a>. But of course back then there was
 no <a href="https://wiki.archlinux.org/title/archinstall">archinstall</a>
 and therefore I had my troubles getting it installed properly.
 So I tried out <a href="https://manjaro.org">Manjaro</a> and the experience wasn&rsquo;t that bad at all.</p>
+<h2 id="macos">macOS</h2>
 <p>And then there was a time where I was using <a href="https://www.apple.com/macos">macOS</a>.
 Yes, I&rsquo;m being serious. It wasn&rsquo;t horrible. But it wasn&rsquo;t good either. I felt so
 lost on macOS and tried to adopt the macOS way of doing things.
@@ -25,8 +30,10 @@ it opens up all of them. No way to select which one you want right now.
 Window management was downright bad for my preferred way of using a computer.
 And the macOS way of doing things did not feel efficient in any way compared to
 my old ways of doing things. Therefore I switched again.</p>
-<p>Enter Arch Linux. I have been very happy on Arch. But I wanted
-to try out <a href="https://get.opensuse.org/tumbleweed">openSUSE Tumbleweed</a>.
+<h2 id="arch-linux">Arch Linux</h2>
+<p>Enter Arch Linux. I have been very happy on Arch.</p>
+<h2 id="tumbleweed">Tumbleweed</h2>
+<p>But I wanted to try out <a href="https://get.opensuse.org/tumbleweed">openSUSE Tumbleweed</a>.
 So I did. And openSUSE Tumbleweed is amazing. I am still not sure which
 of both I like better. But it&rsquo;s probably Tumbleweed. Though I have to say
 <a href="https://wiki.archlinux.org/title/pacman">pacman</a> is so
@@ -36,6 +43,7 @@ so much more DIY. I liked that. But I also like the fact that
 the Tumbleweed installation by itself felt more stable for no apparent
 reason. It just feels like a polished product. Whereas Arch always
 feels incomplete to me.</p>
+<h2 id="microos">MicroOS</h2>
 <p>With the switch to Tumbleweed yet another transition took place.
 I got into the <a href="https://www.opensuse.org/">openSUSE</a> ecosystem.
 I also thought about using openSUSE Leap.
@@ -84,6 +92,7 @@ That means that they are not part of the host OS. And to me
 it kind of makes sense to put those CLI applications inside
 of a separate development environment. They don&rsquo;t need to be part
 of the core OS.</p>
+<h2 id="conclusion">Conclusion</h2>
 <p>Lets wrap it up. I think that MicroOS is a promising attempt
 to make Linux more accessible to more people. But it also makes
 the process of managing a system less of a hassle. Updates are
@@ -96,33 +105,42 @@ still in alpha state, it feels just as solid if not even more so than
 Tumbleweed. But it&rsquo;s not quite polished yet, e.g. I expected <code>kcm_sddm</code>
 to be preinstalled on KDE. Going on forward I am convinced that
 immutable operating systems and especially MicroOS are the way to go!</p>
-]]></content:encoded></item><item><title>How to Download Music for Free</title><link>https://notfirefox.dev/archive/how-to-download-music-for-free/</link><pubDate>Sat, 04 Feb 2023 22:01:45 +0100</pubDate><guid>https://notfirefox.dev/archive/how-to-download-music-for-free/</guid><description>So I have written a new script. It wraps around yt-dlp and it&amp;rsquo;s called mdl. It downloads songs and albums from YouTube Music including album artwork and audio metadata. Here is an example demonstrating how trivial the usage of this script is.
-mdl &amp;#34;https://music.youtube.com/playlist?list=OLAK5uy_kwSFpSgVWClQPCf-wK6Q1J8m8fDr4SrKM&amp;#34; To install it just put the script into your ~/.local/bin directory.
+]]></content:encoded></item><item><title>How to Download Music for Free</title><link>https://notfirefox.dev/archive/how-to-download-music-for-free/</link><pubDate>Sat, 04 Feb 2023 22:01:45 +0100</pubDate><guid>https://notfirefox.dev/archive/how-to-download-music-for-free/</guid><description>So I have written a new script. It wraps around yt-dlp and it&amp;rsquo;s called mdl. It downloads songs and albums from YouTube Music including album artwork and audio metadata.
+Usage Here is an example demonstrating how trivial the usage of this script is.
+mdl &amp;#34;https://music.youtube.com/playlist?list=OLAK5uy_kwSFpSgVWClQPCf-wK6Q1J8m8fDr4SrKM&amp;#34; Installation To install it just put the script into your ~/.local/bin directory.
 wget &amp;#34;https://raw.githubusercontent.com/notfirefox/mdl/main/mdl&amp;#34; -O ~/.local/bin/mdl Then make the script executable.
-chmod +x &amp;#34;$HOME/.local/bin/mdl&amp;#34;</description><content:encoded><![CDATA[<p>So I have written a new script. It wraps
+chmod +x &amp;#34;$HOME/.local/bin/mdl&amp;#34; Conclusion This script allows me too download music effortlessly.</description><content:encoded><![CDATA[<p>So I have written a new script. It wraps
 around <a href="https://github.com/yt-dlp/yt-dlp">yt-dlp</a>
 and it&rsquo;s called <a href="https://github.com/notfirefox/mdl">mdl</a>.
 It downloads songs and albums from
 <a href="https://music.youtube.com/">YouTube Music</a> including
-album artwork and audio metadata. Here is an example
-demonstrating how trivial the usage of this script is.</p>
+album artwork and audio metadata.</p>
+<h2 id="usage">Usage</h2>
+<p>Here is an example demonstrating how trivial the usage of this script is.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">mdl <span class="s2">&#34;https://music.youtube.com/playlist?list=OLAK5uy_kwSFpSgVWClQPCf-wK6Q1J8m8fDr4SrKM&#34;</span>
-</span></span></code></pre></div><p>To install it just put the script into your <code>~/.local/bin</code> directory.</p>
+</span></span></code></pre></div><h2 id="installation">Installation</h2>
+<p>To install it just put the script into your <code>~/.local/bin</code> directory.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">wget <span class="s2">&#34;https://raw.githubusercontent.com/notfirefox/mdl/main/mdl&#34;</span> -O ~/.local/bin/mdl
 </span></span></code></pre></div><p>Then make the script executable.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">chmod +x <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">/.local/bin/mdl&#34;</span>
-</span></span></code></pre></div>]]></content:encoded></item><item><title>You Should Be Using Chromium</title><link>https://notfirefox.dev/archive/you-should-be-using-chromium/</link><pubDate>Thu, 26 Jan 2023 22:30:46 +0100</pubDate><guid>https://notfirefox.dev/archive/you-should-be-using-chromium/</guid><description>This is going to be a hot take. Usually under Linux enthusiasts it is common to recommend using Firefox. And while that makes sense under some circumstances I am going to do the direct opposite.
-Linux users vary a lot. But some of them just hate Big Tech. It goes so far that they only recommend Linux distributions like Arch Linux and Debian. The even more extremists only recommend distributions that don&amp;rsquo;t include proprietary code at all.</description><content:encoded><![CDATA[<p>This is going to be a hot take. Usually
+</span></span></code></pre></div><h2 id="conclusion">Conclusion</h2>
+<p>This script allows me too download music effortlessly.
+There is very little to none reason for to pay for a streaming
+service like <a href="https://open.spotify.com">Spotify</a> anymore.</p>
+]]></content:encoded></item><item><title>You Should Be Using Chromium</title><link>https://notfirefox.dev/archive/you-should-be-using-chromium/</link><pubDate>Thu, 26 Jan 2023 22:30:46 +0100</pubDate><guid>https://notfirefox.dev/archive/you-should-be-using-chromium/</guid><description>This is going to be a hot take. Usually under Linux enthusiasts it is common to recommend using Firefox. And while that makes sense under some circumstances I am going to do the direct opposite.
+Introduction Linux users vary a lot. But some of them just hate Big Tech. It goes so far that they only recommend Linux distributions like Arch Linux and Debian. The even more extremists only recommend distributions that don&amp;rsquo;t include proprietary code at all.</description><content:encoded><![CDATA[<p>This is going to be a hot take. Usually
 under Linux enthusiasts it is common to
 recommend using Firefox. And while that
 makes sense under some circumstances I
 am going to do the direct opposite.</p>
+<h2 id="introduction">Introduction</h2>
 <p>Linux users vary a lot. But some of them
 just hate Big Tech. It goes so far that
 they only recommend Linux distributions
 like Arch Linux and Debian. The even
 more extremists only recommend distributions
 that don&rsquo;t include proprietary code at all.</p>
+<h2 id="security">Security</h2>
 <p>But hating Big Tech in itself does not lead
 anywhere in my opinion. If you are concerned
 about security, there are several occasions
@@ -137,6 +155,7 @@ They simply have more manpower than Mozilla
 to create a functional and secure browser.
 And it should be noted that Chromium is indeed
 open source.</p>
+<h2 id="manifest-v3">Manifest V3</h2>
 <p>Another controversial point that came up
 multiple times is the switch to
 <a href="https://developer.chrome.com/docs/extensions/mv3/intro/">Manifest V3</a>.
@@ -148,16 +167,18 @@ It should also be noted that the new content blocking
 API is also better when it comes to security,
 as described in this article about
 <a href="https://privsec.dev/posts/knowledge/badness-enumeration/">Badness Enumeration</a>.</p>
+<h2 id="conclusion">Conclusion</h2>
 <p>After all the people insisting on using Firefox
 are a small minority and I would assume some of them
 try to avoid Big Tech at all costs and therefore limit
 themselves so much that they are not able to consider alternatives.</p>
 ]]></content:encoded></item><item><title>Bulk Renaming Files Using Vim</title><link>https://notfirefox.dev/archive/bulk-renaming-files-using-vim/</link><pubDate>Wed, 25 Jan 2023 20:16:02 +0100</pubDate><guid>https://notfirefox.dev/archive/bulk-renaming-files-using-vim/</guid><description>Bulk renaming files is a really cool and especially useful feature. It shows the real efficiency that is possible when someone knows how to use a computer efficiently.
-First we are going to open a vim buffer containing all of the files names.
+Tutorial First we are going to open a vim buffer containing all of the files names.
 ls | nvim - Now we are creating mv commands in each line.
 :%s/.*/mv -i &amp;#34;&amp;amp;&amp;#34; &amp;#34;&amp;amp;&amp;#34;/g Next we can modify the commands accordingly. Lastly we execute each mv command.</description><content:encoded><![CDATA[<p>Bulk renaming files is a really cool and especially useful
 feature. It shows the real efficiency that is possible
 when someone knows how to use a computer efficiently.</p>
+<h2 id="tutorial">Tutorial</h2>
 <p>First we are going to open a vim buffer containing all
 of the files names.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">ls <span class="p">|</span> nvim -
@@ -166,4 +187,8 @@ of the files names.</p>
 </span></span></code></pre></div><p>Next we can modify the commands accordingly. Lastly we
 execute each <code>mv</code> command.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">:w !sh
-</span></span></code></pre></div>]]></content:encoded></item></channel></rss>
+</span></span></code></pre></div><h2 id="conclusion">Conclusion</h2>
+<p>Bulk renaming files can be very useful. This simple
+but yet efficient trick can become very useful
+at times when memorized.</p>
+]]></content:encoded></item></channel></rss>

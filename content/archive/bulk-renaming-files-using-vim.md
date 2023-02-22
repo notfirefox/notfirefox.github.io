@@ -7,8 +7,6 @@ Bulk renaming files is a really cool and especially useful
 feature. It shows the real efficiency that is possible
 when someone knows how to use a computer efficiently.
 
-## Tutorial
-
 First we are going to open a vim buffer containing all
 of the files names.
 ```sh
@@ -25,8 +23,6 @@ execute each `mv` command.
 ```
 :w !sh
 ```
-
-## Conclusion
 
 Bulk renaming files can be very useful. This simple
 but yet efficient trick can become very useful

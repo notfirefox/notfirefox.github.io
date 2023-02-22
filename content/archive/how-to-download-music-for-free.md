@@ -10,14 +10,10 @@ It downloads songs and albums from
 [YouTube Music](https://music.youtube.com/) including
 album artwork and audio metadata. 
 
-## Usage
-
 Here is an example demonstrating how trivial the usage of this script is.
 ```sh
 mdl "https://music.youtube.com/playlist?list=OLAK5uy_kwSFpSgVWClQPCf-wK6Q1J8m8fDr4SrKM"
 ```
-
-## Installation
 
 To install it just put the script into your `~/.local/bin` directory.
 ```sh
@@ -27,9 +23,3 @@ Then make the script executable.
 ```sh
 chmod +x "$HOME/.local/bin/mdl"
 ```
-
-## Conclusion
-
-This script allows me too download music effortlessly.
-There is very little to none reason for to pay for a streaming
-service like [Spotify](https://open.spotify.com) anymore.

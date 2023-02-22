@@ -9,22 +9,16 @@ are however some things about it I don't like
 and that make me consider iOS again. Here are
 the reasons why I'm not switching.
 
-## Price
-
 An iPhone is generally more expensive and I'd argue
 they are currently too expensive. Maybe they're also
 compensating due to inflation, but the prices especially
 for the iPhone SE are still too high.
-
-## Battery
 
 My second point does not directly address the iPhone.
 The whole market moved on but the EU pushes back and
 it seems like that we can have user replaceable batteries
 in the future. Therefore I will wait until new phones
 have replaceable batteries before I upgrade my phone again.
-
-## iTunes
 
 Okay the third point is annoying and it is the main selling point
 of Android phones for me. I want to put my music on my phone
@@ -44,13 +38,9 @@ our own music on our own devices. Yes, there is VLC. But if I spend
 a couple hundred on a mobile device I want to put my music on it
 and use the native mobile player and not some aftermarket solution.
 
-## Lightning
-
 Mobile devices should use USB-C. There is no logical reason
 for Apple except profit to still use the old lighting 
 connector for iPhones.
-
-## Conclusion
 
 So if all of those issues are addressed some day I might
 switch back to an iPhone. I simply like their UI better than

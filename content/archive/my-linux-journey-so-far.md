@@ -4,12 +4,8 @@ date: 2023-02-09T22:36:01+01:00
 tags: ["Linux", "macOS"]
 ---
 
-## Ubuntu
-
 My Linux journey began somewhere with [Ubuntu](https://ubuntu.com).
 That was back then when Ubuntu was very popular.
-
-## Kubuntu
 
 Later on I made my first experiences with KDE on [Kubuntu](https://kubuntu.org). Since
 then I have mostly been using [KDE](https://kde.org) as my main desktop environment.
@@ -17,15 +13,11 @@ There were times when I tried out [Gnome](https://www.gnome.org) and
 also window managers like [i3](https://i3wm.org) or 
 [Sway](https://swaywm.org). But they never stuck.
 
-## Manjaro
-
 At some point I was fascinated by rolling release distributions like
 [Arch Linux](https://archlinux.org). But of course back then there was 
 no [archinstall](https://wiki.archlinux.org/title/archinstall) 
 and therefore I had my troubles getting it installed properly. 
 So I tried out [Manjaro](https://manjaro.org) and the experience wasn't that bad at all. 
-
-## macOS
 
 And then there was a time where I was using [macOS](https://www.apple.com/macos). 
 Yes, I'm being serious. It wasn't horrible. But it wasn't good either. I felt so 
@@ -42,12 +34,7 @@ Window management was downright bad for my preferred way of using a computer.
 And the macOS way of doing things did not feel efficient in any way compared to 
 my old ways of doing things. Therefore I switched again.
 
-## Arch Linux
-
 Enter Arch Linux. I have been very happy on Arch. 
-
-## Tumbleweed
-
 But I wanted to try out [openSUSE Tumbleweed](https://get.opensuse.org/tumbleweed). 
 So I did. And openSUSE Tumbleweed is amazing. I am still not sure which 
 of both I like better. But it's probably Tumbleweed. Though I have to say 
@@ -58,8 +45,6 @@ so much more DIY. I liked that. But I also like the fact that
 the Tumbleweed installation by itself felt more stable for no apparent
 reason. It just feels like a polished product. Whereas Arch always
 feels incomplete to me.
-
-## MicroOS
 
 With the switch to Tumbleweed yet another transition took place.
 I got into the [openSUSE](https://www.opensuse.org/) ecosystem. 
@@ -111,8 +96,6 @@ That means that they are not part of the host OS. And to me
 it kind of makes sense to put those CLI applications inside
 of a separate development environment. They don't need to be part
 of the core OS.
-
-## Conclusion
 
 Lets wrap it up. I think that MicroOS is a promising attempt
 to make Linux more accessible to more people. But it also makes

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Vim on notfirefox.dev</title><link>https://notfirefox.dev/tags/vim/</link><description>Recent content in Vim on notfirefox.dev</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 25 Jan 2023 20:16:02 +0100</lastBuildDate><atom:link href="https://notfirefox.dev/tags/vim/index.xml" rel="self" type="application/rss+xml"/><item><title>Bulk Renaming Files Using Vim</title><link>https://notfirefox.dev/archive/bulk-renaming-files-using-vim/</link><pubDate>Wed, 25 Jan 2023 20:16:02 +0100</pubDate><guid>https://notfirefox.dev/archive/bulk-renaming-files-using-vim/</guid><description>Bulk renaming files is a really cool and especially useful feature. It shows the real efficiency that is possible when someone knows how to use a computer efficiently.
-Tutorial First we are going to open a vim buffer containing all of the files names.
+First we are going to open a vim buffer containing all of the files names.
 ls | nvim - Now we are creating mv commands in each line.
 :%s/.*/mv -i &amp;#34;&amp;amp;&amp;#34; &amp;#34;&amp;amp;&amp;#34;/g Next we can modify the commands accordingly. Lastly we execute each mv command.</description><content:encoded><![CDATA[<p>Bulk renaming files is a really cool and especially useful
 feature. It shows the real efficiency that is possible
 when someone knows how to use a computer efficiently.</p>
-<h2 id="tutorial">Tutorial</h2>
 <p>First we are going to open a vim buffer containing all
 of the files names.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">ls <span class="p">|</span> nvim -
@@ -13,8 +12,7 @@ of the files names.</p>
 </span></span></code></pre></div><p>Next we can modify the commands accordingly. Lastly we
 execute each <code>mv</code> command.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">:w !sh
-</span></span></code></pre></div><h2 id="conclusion">Conclusion</h2>
-<p>Bulk renaming files can be very useful. This simple
+</span></span></code></pre></div><p>Bulk renaming files can be very useful. This simple
 but yet efficient trick can become very useful
 at times when memorized.</p>
 ]]></content:encoded></item></channel></rss>

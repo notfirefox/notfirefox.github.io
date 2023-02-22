@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Chromium on notfirefox.dev</title><link>https://notfirefox.dev/tags/chromium/</link><description>Recent content in Chromium on notfirefox.dev</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 26 Jan 2023 22:30:46 +0100</lastBuildDate><atom:link href="https://notfirefox.dev/tags/chromium/index.xml" rel="self" type="application/rss+xml"/><item><title>You Should Be Using Chromium</title><link>https://notfirefox.dev/archive/you-should-be-using-chromium/</link><pubDate>Thu, 26 Jan 2023 22:30:46 +0100</pubDate><guid>https://notfirefox.dev/archive/you-should-be-using-chromium/</guid><description>This is going to be a hot take. Usually under Linux enthusiasts it is common to recommend using Firefox. And while that makes sense under some circumstances I am going to do the direct opposite.
-Introduction Linux users vary a lot. But some of them just hate Big Tech. It goes so far that they only recommend Linux distributions like Arch Linux and Debian. The even more extremists only recommend distributions that don&amp;rsquo;t include proprietary code at all.</description><content:encoded><![CDATA[<p>This is going to be a hot take. Usually
+Linux users vary a lot. But some of them just hate Big Tech. It goes so far that they only recommend Linux distributions like Arch Linux and Debian. The even more extremists only recommend distributions that don&amp;rsquo;t include proprietary code at all.</description><content:encoded><![CDATA[<p>This is going to be a hot take. Usually
 under Linux enthusiasts it is common to
 recommend using Firefox. And while that
 makes sense under some circumstances I
 am going to do the direct opposite.</p>
-<h2 id="introduction">Introduction</h2>
 <p>Linux users vary a lot. But some of them
 just hate Big Tech. It goes so far that
 they only recommend Linux distributions
 like Arch Linux and Debian. The even
 more extremists only recommend distributions
 that don&rsquo;t include proprietary code at all.</p>
-<h2 id="security">Security</h2>
 <p>But hating Big Tech in itself does not lead
 anywhere in my opinion. If you are concerned
 about security, there are several occasions
@@ -26,7 +24,6 @@ They simply have more manpower than Mozilla
 to create a functional and secure browser.
 And it should be noted that Chromium is indeed
 open source.</p>
-<h2 id="manifest-v3">Manifest V3</h2>
 <p>Another controversial point that came up
 multiple times is the switch to
 <a href="https://developer.chrome.com/docs/extensions/mv3/intro/">Manifest V3</a>.
@@ -38,7 +35,6 @@ It should also be noted that the new content blocking
 API is also better when it comes to security,
 as described in this article about
 <a href="https://privsec.dev/posts/knowledge/badness-enumeration/">Badness Enumeration</a>.</p>
-<h2 id="conclusion">Conclusion</h2>
 <p>After all the people insisting on using Firefox
 are a small minority and I would assume some of them
 try to avoid Big Tech at all costs and therefore limit

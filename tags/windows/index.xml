@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Android on notfirefox.dev</title><link>https://notfirefox.dev/tags/android/</link><description>Recent content in Android on notfirefox.dev</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 26 Feb 2023 23:25:39 +0100</lastBuildDate><atom:link href="https://notfirefox.dev/tags/android/index.xml" rel="self" type="application/rss+xml"/><item><title>Resist the Ecosystem</title><link>https://notfirefox.dev/archive/resist-the-ecosystem/</link><pubDate>Sun, 26 Feb 2023 23:25:39 +0100</pubDate><guid>https://notfirefox.dev/archive/resist-the-ecosystem/</guid><description>We arrived in an age where you have to make a choice.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Windows on notfirefox.dev</title><link>https://notfirefox.dev/tags/windows/</link><description>Recent content in Windows on notfirefox.dev</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 26 Feb 2023 23:25:39 +0100</lastBuildDate><atom:link href="https://notfirefox.dev/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Resist the Ecosystem</title><link>https://notfirefox.dev/archive/resist-the-ecosystem/</link><pubDate>Sun, 26 Feb 2023 23:25:39 +0100</pubDate><guid>https://notfirefox.dev/archive/resist-the-ecosystem/</guid><description>We arrived in an age where you have to make a choice.
 Apple or Google? Android or iOS? Windows or macOS? Either way you are entering not only an operating system but also a whole ecosystem. Every major company strives to provide a whole suite of services and software. If you enter the Apple world you are going to use iCloud, iCloud KeyChain, Apple Mail and so on. Being inside of an ecosystem has advantages.</description><content:encoded><![CDATA[<p>We arrived in an age where you have to make
 a choice.</p>
 <ul>
@@ -94,59 +94,4 @@ act as a preparation, like switching to an independent email
 provider or an independent password manager. And for those of
 you that might be interested in making the switch, there may
 be more blog posts coming regarding that topic. Just stay tuned.</p>
-]]></content:encoded></item><item><title>Getting Rid of Sim Toolkit</title><link>https://notfirefox.dev/archive/getting-rid-of-sim-toolkit/</link><pubDate>Sun, 19 Feb 2023 01:04:53 +0100</pubDate><guid>https://notfirefox.dev/archive/getting-rid-of-sim-toolkit/</guid><description>I installed GrapheneOS on my phone and was slightly bothered by a sim toolkit app. Here is how to uninstall it. Go to your phone&amp;rsquo;s settings and locate the build number. Tap seven times on it. Developer mode should now be enabled. Then enable USB debugging. Connect your phone to a computer where adb is installed and run:
-adb shell pm uninstall --user 0 com.android.stk Disable USB debugging and then also disable developer mode.</description><content:encoded><![CDATA[<p>I installed <a href="https://grapheneos.org/">GrapheneOS</a> on my phone
-and was slightly  bothered by a sim toolkit app. Here is how to uninstall it.
-Go to your phone&rsquo;s settings and locate the build number.
-Tap seven times on it. Developer mode should now be enabled.
-Then enable USB debugging.
-Connect your phone to a computer where <code>adb</code> is installed and run:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">adb shell pm uninstall --user <span class="m">0</span> com.android.stk
-</span></span></code></pre></div><p>Disable USB debugging and then also disable developer mode.</p>
-]]></content:encoded></item><item><title>Why I'm Not Switching to iOS</title><link>https://notfirefox.dev/archive/why-im-not-switching-to-ios/</link><pubDate>Mon, 13 Feb 2023 16:15:54 +0100</pubDate><guid>https://notfirefox.dev/archive/why-im-not-switching-to-ios/</guid><description>While I have used iOS in the past, I&amp;rsquo;m currently on GrapheneOS. There are however some things about it I don&amp;rsquo;t like and that make me consider iOS again. Here are the reasons why I&amp;rsquo;m not switching.
-An iPhone is generally more expensive and I&amp;rsquo;d argue they are currently too expensive. Maybe they&amp;rsquo;re also compensating due to inflation, but the prices especially for the iPhone SE are still too high.</description><content:encoded><![CDATA[<p>While I have used iOS in the past, I&rsquo;m currently
-on <a href="https://grapheneos.org/">GrapheneOS</a>. There
-are however some things about it I don&rsquo;t like
-and that make me consider iOS again. Here are
-the reasons why I&rsquo;m not switching.</p>
-<p>An iPhone is generally more expensive and I&rsquo;d argue
-they are currently too expensive. Maybe they&rsquo;re also
-compensating due to inflation, but the prices especially
-for the iPhone SE are still too high.</p>
-<p>My second point does not directly address the iPhone.
-The whole market moved on but the EU pushes back and
-it seems like that we can have user replaceable batteries
-in the future. Therefore I will wait until new phones
-have replaceable batteries before I upgrade my phone again.</p>
-<p>Okay the third point is annoying and it is the main selling point
-of Android phones for me. I want to put my music on my phone
-without using iTunes. I exclusively use Linux simply due to the
-reason that I like the KDE desktop best. I have talked about
-my reasoning why I don&rsquo;t use macOS anymore in my article about
-<a href="https://notfirefox.dev/archive/my-linux-journey-so-far/">My Linux Journey So Far</a>.
-And while I would be fine on Windows I&rsquo;ve become accustomed to the
-Linux terminal and <a href="https://neovim.io/">Neovim</a>. I would simply
-feel less efficient on Windows and I would probably be using the
-<a href="https://learn.microsoft.com/en-us/windows/wsl/install">WSL</a> most
-of the times. Putting music on an iPhone using Linux is a huge
-pain. iTunes does not run on Linux and one has run virtualisation
-of some kind. And there&rsquo;s no guarantee that it is going to work
-in the end. And why? Because Apple makes it hard for us to put
-our own music on our own devices. Yes, there is VLC. But if I spend
-a couple hundred on a mobile device I want to put my music on it
-and use the native mobile player and not some aftermarket solution.</p>
-<p>Mobile devices should use USB-C. There is no logical reason
-for Apple except profit to still use the old lighting
-connector for iPhones.</p>
-<p>So if all of those issues are addressed some day I might
-switch back to an iPhone. I simply like their UI better than
-Android. I&rsquo;m currently using <a href="https://grapheneos.org/">GrapheneOS</a>
-and its UI is utterly inconsistent. But I don&rsquo;t like stock
-Android either. iOS just has a very intuitive and consistent
-user interface. But as long as iOS is a closed off system
-I don&rsquo;t see myself switching to it. I&rsquo;d at least want to be
-able to put my own music on it. And it would also be nice
-to use a browser engine different than <a href="https://webkit.org/">WebKit</a>.
-And no I don&rsquo;t want additional browser engines. I want to be able
-to choose which browser engine is used on a system level.</p>
 ]]></content:encoded></item></channel></rss>

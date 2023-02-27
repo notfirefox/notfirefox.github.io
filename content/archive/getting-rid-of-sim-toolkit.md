@@ -1,6 +1,7 @@
 ---
 title: "Getting Rid of Sim Toolkit"
 date: 2023-02-19T01:04:53+01:00
+tags: ["Android"]
 ---
 I installed [GrapheneOS](https://grapheneos.org/) on my phone 
 and was slightly  bothered by a sim toolkit app. Here is how to uninstall it.

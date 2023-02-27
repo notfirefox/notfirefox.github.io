@@ -1,7 +1,7 @@
 ---
 title: "Why I'm Not Switching to iOS"
 date: 2023-02-13T16:15:54+01:00
-tags: ["Android", "iOS"]
+tags: ["Android", "Ecosystem", "iOS"]
 ---
 While I have used iOS in the past, I'm currently
 on [GrapheneOS](https://grapheneos.org/). There

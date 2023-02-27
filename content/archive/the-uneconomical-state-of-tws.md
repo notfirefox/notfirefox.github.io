@@ -1,6 +1,7 @@
 ---
 title: "The Uneconomical State of TWS"
 date: 2023-02-22T01:00:39+01:00
+tags: ["Audio"]
 ---
 So called TWS (True Wireless Stereo) earbuds
 are powered by lithium-ion batteries and Bluetooth.

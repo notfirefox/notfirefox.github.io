@@ -1,10 +1,10 @@
 baseURL: "https://notfirefox.dev"
 title: "notfirefox.dev"
-theme: "wondermod"
+theme: "PaperMod"
 
 params:
   env: prodcution
-  defaultTheme: dark
+  defaultTheme: auto
   disableThemeToggle: true
   ShowReadingTime: true
   ShowPostNavLinks: true

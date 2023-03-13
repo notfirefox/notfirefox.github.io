@@ -7,24 +7,28 @@ params:
   defaultTheme: auto
   disableThemeToggle: true
   ShowReadingTime: true
-  ShowPostNavLinks: true
+  ShowPostNavLinks: false
   ShowBreadCrumbs: true
   ShowWordCount: true
   ShowFullTextInRSS: true
   ShowCodeCopyButtons: true
-  ShowToc: true
+  ShowToc: false
 
   profileMode:
-    enabled: true
-    title: notfirefox
-    subtitle: "Developer and Security Researcher"
-    imageUrl: "/user.jpg"
+    enabled: false
 
   socialIcons:
     - name: github
       url: "https://github.com/notfirefox"
     - name: rss
       url: /index.xml
+
+  homeInfoParams:
+    title: "About us"
+    content: >
+      There are so many ways to approach technology. Here at notfirefox.dev
+      we discuss unusual ways to utilize technology in the 21st century and
+      present alternatives to common approaches.
 
   cover:
     hidden: false

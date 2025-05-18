@@ -142,6 +142,12 @@ Allow us to use the `<Super>+Q` shortcut for closing windows.
 gsettings set org.gnome.desktop.wm.keybindings close "['<Super>q']"
 ```
 
+Allow us to use the `<Super>+<Control>+Q` shortcut for locking the screen.
+
+```sh
+gsettings set org.gnome.settings-daemon.plugins.media-keys screensaver "['<Control><Super>q']"
+```
+
 If the `Super` key is on the right side of your keyboard, use this command.
 
 ```sh

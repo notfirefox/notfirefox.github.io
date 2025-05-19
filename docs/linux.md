@@ -44,6 +44,12 @@ Enable dark mode.
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 ```
 
+Hide the home folder on the desktop.
+
+```sh
+gsettings set org.gnome.shell.extensions.ding show-home false
+```
+
 ### Dock
 
 Show the dock at the bottom.

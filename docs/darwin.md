@@ -39,7 +39,7 @@ Automatically hide the dock to save some vertical space.
 defaults write com.apple.dock "autohide" -bool "true"
 ```
 
-Reduce the time it takes for the dock to hide.
+Reduce the time it takes for the dock to show up.
 
 ```sh
 defaults write com.apple.dock "autohide-delay" -float "0"

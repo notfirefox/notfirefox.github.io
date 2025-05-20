@@ -70,6 +70,12 @@ Automatically hide the dock.
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed false
 ```
 
+Disable intelligent hide.
+
+```sh
+gsettings set org.gnome.shell.extensions.dash-to-dock intellihide false
+```
+
 Move the *Show Apps* button to the left.
 
 ```sh

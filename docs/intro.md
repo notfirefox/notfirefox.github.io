@@ -8,8 +8,8 @@ and pieces of software.
 As of right now, the only supported operating systems are 
 the ones listed below. 
 
-- [Linux](./linux.md)
 - [macOS](./darwin.md)
+- [Linux](./linux.md)
 
 In theory, any Unix-like operating system could qualify. In practice,
 other Unix-like operating systems have mostly become irrelevant.

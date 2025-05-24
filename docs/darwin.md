@@ -65,29 +65,8 @@ For those who want a simple modal editor, `nvi` is an excellent choice.
 brew install nvi
 ```
 
-Create symbolic links for the `vi` command.
-
-```sh
-sudo ln -s /opt/homebrew/bin/nvi /usr/local/bin/vi &&
-sudo ln -s /opt/homebrew/share/man/man1/nvi.1.gz \
-    /usr/local/share/man/man1/vi.1.gz
-```
-
-Create symbolic links for the `ex` command.
-
-```sh
-sudo ln -s /opt/homebrew/bin/nex /usr/local/bin/ex &&
-sudo ln -s /opt/homebrew/share/man/man1/nex.1.gz \
-    /usr/local/share/man/man1/ex.1.gz
-```
-
-Create symbolic links for the `view` command.
-
-```sh
-sudo ln -s /opt/homebrew/bin/nview /usr/local/bin/view &&
-sudo ln -s /opt/homebrew/share/man/man1/nview.1.gz \
-    /usr/local/share/man/man1/view.1.gz
-```
+The [Shell](./darwin.md#shell) configuration provided below will automatically 
+create aliases for the `vi`, `ex` and `view` commands.
 
 ### Finder
 

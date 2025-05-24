@@ -104,29 +104,8 @@ For those who want a simple modal editor, `nvi` is an excellent choice.
 sudo apt install nvi
 ```
 
-Prefer the `nvi` binary when running the `vi` command.
-
-```sh
-sudo update-alternatives \
-    --install /usr/bin/vi vi /usr/bin/nvi 90 \
-    --slave /usr/share/man/man1/vi.1.gz vi.1.gz /usr/share/man/man1/nvi.1.gz
-```
-
-Prefer the `nex` binary when running the `ex` command.
-
-```sh
-sudo update-alternatives \
-    --install /usr/bin/ex ex /usr/bin/nex 90 \
-    --slave /usr/share/man/man1/ex.1.gz ex.1.gz /usr/share/man/man1/nex.1.gz
-```
-
-Prefer the `nview` binary when running the `view` command.
-
-```sh
-sudo update-alternatives \
-    --install /usr/bin/view view /usr/bin/nview 90 \
-    --slave /usr/share/man/man1/view.1.gz view.1.gz /usr/share/man/man1/nview.1.gz
-```
+The [Shell](./darwin.md#shell) configuration provided below will automatically 
+create aliases for the `vi`, `ex` and `view` commands.
 
 ### Keyboard
 

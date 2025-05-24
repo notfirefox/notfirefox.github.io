@@ -5,7 +5,7 @@ outline: deep
 # Linux
 
 Configuration for Linux-based systems. To ensure some level of uniformity,
-an Ubuntu-based system will be assumed at some places.
+an Ubuntu-based system will be assumed throughout this document.
 
 ## Configuration
 
@@ -104,9 +104,6 @@ For those who want a simple modal editor, `nvi` is an excellent choice.
 sudo apt install nvi
 ```
 
-The [Shell](./darwin.md#shell) configuration provided below will automatically 
-create aliases for the `vi`, `ex` and `view` commands.
-
 ### Keyboard
 
 Enable the additional keyboard layouts.
@@ -171,7 +168,8 @@ Use `wget` to download the `$HOME/.zshrc` file.
 wget -O "$HOME/.zshrc" "https://raw.githubusercontent.com/notfirefox/zsh-config/main/.zshrc"
 ```
 
-Run the following command for the changes to become effective immediately.
+Source the `.zshrc` file for the changes to become effective.
+
 ```sh
 . "$HOME/.zshrc"
 ```

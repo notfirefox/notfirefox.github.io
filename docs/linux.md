@@ -145,30 +145,6 @@ If the `Super` key is on the right side of your keyboard, use this command.
 gsettings set org.gnome.mutter overlay-key Super_R
 ```
 
-### Pasteboard
-
-macOS has the `pbcopy` and `pbpaste` commands to copy and paste from
-the clipboard. On Linux-based systems, you would use `wl-copy` and 
-`wl-paste` instead. To make our life easier, we will create aliases,
-that make the interface to those basic commands uniform.
-Install the alias for the `pbcopy` command.
-
-```sh
-sudo update-alternatives \
-    --install /usr/bin/pbcopy pbcopy /usr/bin/wl-copy 90 \
-    --slave /usr/share/man/man1/pbcopy.1.gz pbcopy.1.gz /usr/share/man/man1/wl-copy.1.gz
-```
-
-Install the alias for the `pbpaste` command.
-
-```sh
-sudo update-alternatives \
-    --install /usr/bin/pbpaste pbpaste /usr/bin/wl-paste 90 \
-    --slave /usr/share/man/man1/pbpaste.1.gz pbpaste.1.gz /usr/share/man/man1/wl-paste.1.gz
-```
-
-This allows us to use the `pbcopy` and `pbpaste` commands on Linux too.
-
 ### Shell
 
 Linux systems typically use `bash`, i.e. *Bourne Again Shell*, by default.

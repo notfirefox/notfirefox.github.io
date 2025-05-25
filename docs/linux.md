@@ -176,4 +176,84 @@ Source the `.zshrc` file for the changes to become effective.
 
 ### Userland
 
-**TODO:** Write section about custom user space tools.
+The user space tools on typical Linux-based systems have non-standard 
+extensions such as long option flags. Such non-standard extensions may or
+may not be available on other Unix-like operating systems. Therefore it is
+advised to not become dependant on such non-standard behavior. This is why
+we prefer user space tools from [Chimera Linux](https://chimera-linux.org/).
+
+#### Packages
+
+Install the required packages to compile software from source.
+
+```sh
+sudo apt install autoconf automake bison build-essential cmake flex \
+    libacl1-dev libbz2-dev libedit-dev liblzma-dev libncurses5-dev \
+    libssl-dev libzstd-dev libtool meson ninja-build pkg-config zlib1g-dev
+```
+
+#### Libxo
+
+**TODO:** Consider installing `libxo` into the `$HOME/.local/` directory.
+
+Download the latest `libxo` release.
+
+```sh
+curl -LO "https://github.com/Juniper/libxo/releases/download/1.7.5/libxo-1.7.5.tar.gz"
+```
+
+Extract the release file.
+
+```sh
+tar xzvf libxo-1.7.5.tar.gz
+```
+
+Enter the `libxo-1.7.5` directory.
+
+```sh
+cd libxo-1.7.5/
+```
+
+Run the `configure` script.
+
+```sh
+./configure --prefix=/usr/local
+```
+
+Compile and install the library.
+
+```sh
+make && sudo make install
+```
+
+#### Chimerautils
+
+Download the `chimerautils` source code.
+
+```sh
+curl -LO "https://github.com/chimera-linux/chimerautils/archive/refs/tags/v14.2.2.tar.gz"
+```
+
+Extract the `chimerautils` archive.
+
+```sh
+tar xzvf v14.2.2.tar.gz
+```
+
+Enter the `chimerautils` directory.
+
+```sh
+cd chimerautils-14.2.2/
+```
+
+Configure the `meson` project.
+
+```sh
+meson setup --prefix=$HOME/.local build/
+```
+
+Compile and install the project from source.
+
+```sh
+meson compile -C build/ && meson install -C build/
+```

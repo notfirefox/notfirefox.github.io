@@ -194,8 +194,6 @@ sudo apt install autoconf automake bison build-essential cmake flex \
 
 #### Libxo
 
-**TODO:** Consider installing `libxo` into the `$HOME/.local/` directory.
-
 Download the latest `libxo` release.
 
 ```sh
@@ -217,13 +215,13 @@ cd libxo-1.7.5/
 Run the `configure` script.
 
 ```sh
-./configure --prefix=/usr/local
+./configure --prefix=$HOME/.local/
 ```
 
 Compile and install the library.
 
 ```sh
-make && sudo make install
+make && make install
 ```
 
 #### Chimerautils
@@ -249,7 +247,9 @@ cd chimerautils-14.2.2/
 Configure the `meson` project.
 
 ```sh
-meson setup --prefix=$HOME/.local build/
+PKG_CONFIG_PATH=$HOME/.local/lib/pkgconfig meson setup \
+    -Dc_link_args='-Wl,--rpath $ORIGIN/../lib' \
+    --prefix=$HOME/.local/ build/
 ```
 
 Compile and install the project from source.

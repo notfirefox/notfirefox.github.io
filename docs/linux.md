@@ -182,9 +182,9 @@ may not be available on other Unix-like operating systems. Therefore it is
 advised to not become dependant on such non-standard behavior. This is why
 we prefer user space tools from [Chimera Linux](https://chimera-linux.org/).
 
-#### Packages
+#### Dependencies
 
-Install the required packages to compile software from source.
+Install the required packages to compile the user space tools from source.
 
 ```sh
 sudo apt install autoconf automake bison build-essential cmake flex \
@@ -192,27 +192,21 @@ sudo apt install autoconf automake bison build-essential cmake flex \
     libssl-dev libzstd-dev libtool meson ninja-build pkg-config zlib1g-dev
 ```
 
-#### Libxo
+#### Preparation
 
-Download the latest `libxo` release.
+We will first need to download and install the `libxo` library.
 
 ```sh
 curl -LO "https://github.com/Juniper/libxo/releases/download/1.7.5/libxo-1.7.5.tar.gz"
 ```
 
-Extract the release file.
+Extract the archive and change the directory.
 
 ```sh
-tar xzvf libxo-1.7.5.tar.gz
+tar xzvf libxo-1.7.5.tar.gz && cd libxo-1.7.5/
 ```
 
-Enter the `libxo-1.7.5` directory.
-
-```sh
-cd libxo-1.7.5/
-```
-
-Run the `configure` script.
+Configure the build environment, by running the `configure` script.
 
 ```sh
 ./configure --prefix=$HOME/.local/
@@ -224,27 +218,21 @@ Compile and install the library.
 make && make install
 ```
 
-#### Chimerautils
+#### Installation
 
-Download the `chimerautils` source code.
+Now we can download and install the `chimerautils` userland tools.
 
 ```sh
 curl -LO "https://github.com/chimera-linux/chimerautils/archive/refs/tags/v14.2.2.tar.gz"
 ```
 
-Extract the `chimerautils` archive.
+Extract the archive and change the directory.
 
 ```sh
-tar xzvf v14.2.2.tar.gz
+tar xzvf v14.2.2.tar.gz && cd chimerautils-14.2.2/
 ```
 
-Enter the `chimerautils` directory.
-
-```sh
-cd chimerautils-14.2.2/
-```
-
-Configure the `meson` project.
+Configure the build environment, by running `meson setup`.
 
 ```sh
 PKG_CONFIG_PATH=$HOME/.local/lib/pkgconfig meson setup \
@@ -252,7 +240,7 @@ PKG_CONFIG_PATH=$HOME/.local/lib/pkgconfig meson setup \
     --prefix=$HOME/.local/ build/
 ```
 
-Compile and install the project from source.
+Compile and install the tools.
 
 ```sh
 meson compile -C build/ && meson install -C build/

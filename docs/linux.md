@@ -162,6 +162,12 @@ Change the default shell using the following command.
 chsh -s /bin/zsh
 ```
 
+Disable the global `compinit` on Debian-based systems.
+
+```sh
+echo 'skip_global_compinit=1' > ~/.zshenv
+```
+
 Use `wget` to download the `$HOME/.zshrc` file.
 
 ```sh

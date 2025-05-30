@@ -142,7 +142,7 @@ Ubuntu 24.04 LTS. It can be installed manually as described below.
 Download the latest release of the fonts.
 
 ```sh
-curl -LO https://download.gnome.org/sources/adwaita-fonts/48/adwaita-fonts-48.2.tar.xz
+wget "https://download.gnome.org/sources/adwaita-fonts/48/adwaita-fonts-48.2.tar.xz"
 ```
 
 Extract the archive.
@@ -268,7 +268,7 @@ sudo apt install autoconf automake bison build-essential cmake flex \
 We will first need to download and install the `libxo` library.
 
 ```sh
-curl -LO "https://github.com/Juniper/libxo/releases/download/1.7.5/libxo-1.7.5.tar.gz"
+wget "https://github.com/Juniper/libxo/releases/download/1.7.5/libxo-1.7.5.tar.gz"
 ```
 
 Extract the archive and change the directory.
@@ -294,7 +294,7 @@ make && make install
 Now we can download and install the `chimerautils` userland tools.
 
 ```sh
-curl -LO "https://github.com/chimera-linux/chimerautils/archive/refs/tags/v14.2.2.tar.gz"
+wget "https://github.com/chimera-linux/chimerautils/archive/refs/tags/v14.2.2.tar.gz"
 ```
 
 Extract the archive and change the directory.

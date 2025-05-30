@@ -5,15 +5,11 @@ outline: deep
 # Linux
 
 Configuration for Linux-based systems. To ensure some level of uniformity,
-an Ubuntu-based system will be assumed throughout this document.
+a Debian-based system will be assumed throughout this document. We will also
+assume the usage of the [GNOME](https://www.gnome.org/) desktop environment, 
+which enables us to customize the desktop using the `gsettings` utility.
 
-## Configuration
-
-Configuring Linux-based desktop systems through various means.
-Some of the desktop-related options can be easily customized using
-the `gsettings` utility.
-
-### Browser
+## Browser
 
 Chromium defaults to using XWayland instead of using Wayland
 natively. We will set the `CHROMIUM_FLAGS` environment variable
@@ -36,7 +32,7 @@ Restart the Wayland session. Open `chrome://gpu` in Chromium and
 look for *Ozone platform*, to confirm that the browser is running
 natively on Wayland.
 
-### Desktop
+## Desktop
 
 Enable dark mode.
 
@@ -62,7 +58,7 @@ Hide the home folder on the desktop.
 gsettings set org.gnome.shell.extensions.ding show-home false
 ```
 
-### Dock
+## Dock
 
 Show the dock at the bottom.
 
@@ -114,7 +110,7 @@ for i in $(seq 1 9); do
 done
 ```
 
-### Editor
+## Editor
 
 For those who want a simple modal editor, `nvi` is an excellent choice.
 
@@ -122,7 +118,7 @@ For those who want a simple modal editor, `nvi` is an excellent choice.
 sudo apt install nvi
 ```
 
-### Keyboard
+## Keyboard
 
 Enable the additional keyboard layouts.
 
@@ -160,7 +156,7 @@ If the `Super` key is on the right side of your keyboard, use this command.
 gsettings set org.gnome.mutter overlay-key Super_R
 ```
 
-### Shell
+## Shell
 
 Linux systems typically use `bash`, i.e. *Bourne Again Shell*, by default.
 It is an enhancement of the original `sh`, i.e. *Bourne Shell*, and also
@@ -198,7 +194,7 @@ Source the `.zshrc` file for the changes to become effective.
 . "$HOME/.zshrc"
 ```
 
-### Userland
+## Userland
 
 The user space tools on typical Linux-based systems have non-standard 
 extensions such as long option flags. Such non-standard extensions may or
@@ -206,7 +202,7 @@ may not be available on other Unix-like operating systems. Therefore it is
 advised to not become dependant on such non-standard behavior. This is why
 we prefer user space tools from [Chimera Linux](https://chimera-linux.org/).
 
-#### Dependencies
+### Dependencies
 
 Install the required packages to compile the user space tools from source.
 
@@ -216,7 +212,7 @@ sudo apt install autoconf automake bison build-essential cmake flex \
     libssl-dev libzstd-dev libtool meson ninja-build pkg-config zlib1g-dev
 ```
 
-#### Preparation
+### Preparation
 
 We will first need to download and install the `libxo` library.
 
@@ -242,7 +238,7 @@ Compile and install the library.
 make && make install
 ```
 
-#### Installation
+### Installation
 
 Now we can download and install the `chimerautils` userland tools.
 

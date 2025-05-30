@@ -4,7 +4,9 @@ outline: deep
 
 # macOS
 
-Documenting useful configuration options for macOS.
+Documenting useful configuration options for macOS. Some of these 
+customizations will involve the `defaults` command. See 
+[macos-defaults.com](https://macos-defaults.com/) for more information.
 
 ## Homebrew
 
@@ -26,12 +28,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 See the [Shell](./darwin.md#shell) section below, which already takes care of this.
 
-## Configuration
-
-The system can be further customized using the `defaults` command, see 
-[macos-defaults.com](https://macos-defaults.com/) for more information.
-
-### Dock
+## Dock
 
 Automatically hide the dock to save some vertical space.
 
@@ -57,7 +54,7 @@ Run the following command for the changes to become effective.
 killall Dock
 ```
 
-### Editor
+## Editor
 
 For those who want a simple modal editor, `nvi` is an excellent choice.
 
@@ -65,7 +62,7 @@ For those who want a simple modal editor, `nvi` is an excellent choice.
 brew install nvi
 ```
 
-### Finder
+## Finder
 
 Configure the finder to show folders first.
 
@@ -85,7 +82,7 @@ Run the following command for the changes to become effective.
 killall Finder
 ```
 
-### Git
+## Git
 
 macOS automatically creates `.DS_Store` files all around the file system.
 This can be annoying, when sharing code with others using a version 
@@ -104,7 +101,7 @@ Tell Git about the `.gitignore` file.
 git config --global core.excludesfile "$HOME/.gitignore"
 ```
 
-### Shell
+## Shell
 
 On macOS the default shell is `zsh`. In order to have some niceties, such
 as colored output for some commands and Homebrew integration, we will 
@@ -122,7 +119,7 @@ Source the `.zshrc` file for the changes to become effective.
 . "$HOME/.zshrc"
 ```
 
-### Terminal
+## Terminal
 
 Instead of using Apple Terminal, it is recommended to use something like
 [iTerm2](https://iterm2.com/) instead.

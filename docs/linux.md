@@ -82,6 +82,12 @@ Move the *Show Apps* button to the left.
 gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
 ```
 
+Apply the custom theme.
+
+```sh
+gsettings set org.gnome.shell.extensions.dash-to-dock apply-custom-theme true
+```
+
 Disable shortcuts for Dash to Dock extension.
 
 ```sh

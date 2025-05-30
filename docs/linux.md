@@ -44,6 +44,12 @@ Enable dark mode.
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 ```
 
+Disable hot corners.
+
+```sh
+gsettings set org.gnome.desktop.interface enable-hot-corners false
+```
+
 Hide the home folder on the desktop.
 
 ```sh

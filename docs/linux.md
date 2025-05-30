@@ -50,6 +50,12 @@ Disable hot corners.
 gsettings set org.gnome.desktop.interface enable-hot-corners false
 ```
 
+Restore the maximize and minimize buttons.
+
+```sh
+gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"
+```
+
 Hide the home folder on the desktop.
 
 ```sh

@@ -36,7 +36,7 @@ natively on Wayland.
 
 ::: tip IMPORTANT
 Ubuntu ships a customized version of the GNOME shell, whereas
-this document will assume a stock configuration as a starting point.
+this document assumes a stock configuration as the starting point.
 We can restore the stock experience by installing this package.
 
 ```sh
@@ -50,7 +50,7 @@ Log out of the current session. When logging back in, select
 dconf reset -f /
 ```
 
-Lastly we re-enable the Ubuntu dock extension.
+Lastly re-enable the Ubuntu dock extension.
 
 ```sh
 gsettings set org.gnome.shell enabled-extensions "['ubuntu-dock@ubuntu.com']"

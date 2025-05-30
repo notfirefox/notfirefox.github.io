@@ -34,7 +34,7 @@ natively on Wayland.
 
 ## Desktop
 
-::: warning
+::: tip IMPORTANT
 Ubuntu ships a customized version of the GNOME shell, whereas
 this document will assume a stock configuration as a starting point.
 We can restore the stock experience by installing this package.
@@ -77,6 +77,11 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize
 ```
 
 ## Dock
+
+::: tip IMPORTANT
+If you are not on Ubuntu, then make sure that you have the 
+[Dash to Dock](https://github.com/micheleg/dash-to-dock) extension installed.
+:::
 
 Move the *Show Apps* button to the left.
 

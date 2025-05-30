@@ -104,7 +104,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock apply-custom-theme true
 Do not show the overview when logging in.
 
 ```sh
-org.gnome.shell.extensions.dash-to-dock disable-overview-on-startup true
+gsettings set org.gnome.shell.extensions.dash-to-dock disable-overview-on-startup true
 ```
 
 Disable shortcuts for Dash to Dock extension.

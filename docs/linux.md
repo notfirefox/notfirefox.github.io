@@ -129,6 +129,46 @@ For those who want a simple modal editor, `nvi` is an excellent choice.
 sudo apt install nvi
 ```
 
+## Fonts
+
+::: info INFO
+Older versions of the GNOME shell use the Cantarell typeface. Starting with
+GNOME version 48, a new typeface, called
+[Adwaita Fonts](https://gitlab.gnome.org/GNOME/adwaita-fonts), will be used.
+This font however is currently not used by default on Debian Trixie or 
+Ubuntu 24.04 LTS. It can be installed manually as described below.
+:::
+
+Download the latest release of the fonts.
+
+```sh
+curl -LO https://download.gnome.org/sources/adwaita-fonts/48/adwaita-fonts-48.2.tar.xz
+```
+
+Extract the archive.
+
+```sh
+tar xJvf adwaita-fonts-48.2.tar.xz
+```
+
+Install the sans fonts.
+
+```sh
+cp adwaita-fonts-48.2/sans/*.ttf ~/.local/share/fonts/
+```
+
+Reload the font cache.
+
+```sh
+fc-cache -fv
+```
+
+Set the system sans font.
+
+```sh
+gsettings set org.gnome.desktop.interface font-name "Adwaita Sans 11"
+```
+
 ## Keyboard
 
 Enable the additional keyboard layouts.

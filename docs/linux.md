@@ -34,6 +34,30 @@ natively on Wayland.
 
 ## Desktop
 
+::: warning
+Ubuntu ships a customized version of the GNOME shell, whereas
+this document will assume a stock configuration as a starting point.
+We can restore the stock experience by installing this package.
+
+```sh
+sudo apt install vanilla-gnome-default-settings
+```
+
+Log out of the current session. When logging back in, select
+`GNOME` instead of `Ubuntu`. Then reset all settings using `dconf`. 
+
+```sh
+dconf reset -f /
+```
+
+Lastly we re-enable the Ubuntu dock extension.
+
+```sh
+gsettings set org.gnome.shell enabled-extensions "['ubuntu-dock@ubuntu.com']"
+```
+
+:::
+
 Enable dark mode.
 
 ```sh
@@ -52,30 +76,12 @@ Restore the maximize and minimize buttons.
 gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"
 ```
 
-Hide the home folder on the desktop.
-
-```sh
-gsettings set org.gnome.shell.extensions.ding show-home false
-```
-
 ## Dock
 
-Show the dock at the bottom.
+Move the *Show Apps* button to the left.
 
 ```sh
-gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
-```
-
-Use a dock instead of a panel.
-
-```sh
-gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
-```
-
-Automatically hide the dock.
-
-```sh
-gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed false
+gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
 ```
 
 Disable intelligent hide.
@@ -84,16 +90,16 @@ Disable intelligent hide.
 gsettings set org.gnome.shell.extensions.dash-to-dock intellihide false
 ```
 
-Move the *Show Apps* button to the left.
-
-```sh
-gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
-```
-
 Apply the custom theme.
 
 ```sh
 gsettings set org.gnome.shell.extensions.dash-to-dock apply-custom-theme true
+```
+
+Do not show the overview when logging in.
+
+```sh
+org.gnome.shell.extensions.dash-to-dock disable-overview-on-startup true
 ```
 
 Disable shortcuts for Dash to Dock extension.

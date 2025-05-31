@@ -50,12 +50,6 @@ Log out of the current session. When logging back in, select
 dconf reset -f /
 ```
 
-Lastly re-enable the Ubuntu dock extension.
-
-```sh
-gsettings set org.gnome.shell enabled-extensions "['ubuntu-dock@ubuntu.com']"
-```
-
 :::
 
 Enable dark mode.
@@ -78,9 +72,29 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize
 
 ## Dock
 
-::: tip IMPORTANT
-If you are not on Ubuntu, then make sure that you have the 
-[Dash to Dock](https://github.com/micheleg/dash-to-dock) extension installed.
+Make sure you have installed the 
+[Dash to Dock](https://github.com/micheleg/dash-to-dock) extension.
+
+::: code-group
+```sh [Debian]
+sudo apt install gnome-shell-extension-dashtodock
+```
+
+```sh [Ubuntu]
+sudo apt install gnome-shell-extension-ubuntu-dock
+```
+:::
+
+Enable the Dash to Dock extension.
+
+::: code-group
+```sh [Debian]
+gsettings set org.gnome.shell enabled-extensions "['dash-to-dock@micxgx.gmail.com']"
+```
+
+```sh [Ubuntu]
+gsettings set org.gnome.shell enabled-extensions "['ubuntu-dock@ubuntu.com']"
+```
 :::
 
 Move the *Show Apps* button to the left.

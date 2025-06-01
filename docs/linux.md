@@ -229,6 +229,8 @@ incorporates parts of `ksh`, i.e. the *KornShell*. macOS nowadays defaults
 to `zsh`, i.e. the Z shell. This is also what we will use, as it provides
 every feature we need and comes with completions out of the box.
 
+### Installation
+
 The following command will install the `zsh` shell.
 
 ```sh
@@ -238,14 +240,20 @@ sudo apt install zsh
 Change the default shell using the following command.
 
 ```sh
-chsh -s /bin/zsh
+chsh -s /bin/zsh && exec zsh
 ```
 
-Disable the global `compinit` on Debian-based systems.
+### Configuration
+
+::: warning WARNING
+On Ubuntu the completion system will be enabled globally.
+This will interfere with the configuration that we provide.
+You can disable this behavior using the following command.
 
 ```sh
-echo 'skip_global_compinit=1' > ~/.zshenv
+echo 'skip_global_compinit=1' > "$HOME/.zshenv"
 ```
+:::
 
 Use `wget` to download the `$HOME/.zshrc` file.
 

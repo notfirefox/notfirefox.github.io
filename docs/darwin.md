@@ -19,7 +19,7 @@ command.
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-Your `$HOME/.zshrc` file should also contain this to properly 
+Your `~/.zshrc` file should also contain this to properly 
 load `brew` at shell startup:
 
 ```sh
@@ -89,16 +89,16 @@ This can be annoying, when sharing code with others using a version
 control system like Git. We can utilize a global `.gitignore` file, 
 in order to avoid that problem.
 
-Create a global `.gitignore` file.
+Create a global `~/.gitignore` file.
 
 ```sh
-echo ".DS_Store" > "$HOME/.gitignore"
+echo ".DS_Store" > "$HOME"/.gitignore
 ```
 
-Tell Git about the `.gitignore` file.
+Tell Git about the `~/.gitignore` file.
 
 ```sh
-git config --global core.excludesfile "$HOME/.gitignore"
+git config --global core.excludesfile "$HOME"/.gitignore
 ```
 
 ## Shell
@@ -107,16 +107,16 @@ On macOS the default shell is `zsh`. In order to have some niceties, such
 as colored output for some commands and Homebrew integration, we will 
 install my custom configuration.
 
-Use `curl` to download the `$HOME/.zshrc` file.
+Use `curl` to download the `~/.zshrc` file.
 
 ```sh
-curl -o "$HOME/.zshrc" "https://raw.githubusercontent.com/notfirefox/zsh-config/main/.zshrc"
+curl -o "$HOME"/.zshrc "https://raw.githubusercontent.com/notfirefox/zsh-config/main/.zshrc"
 ```
 
-Source the `.zshrc` file for the changes to become effective.
+Source the `~/.zshrc` file for the changes to become effective.
 
 ```sh
-. "$HOME/.zshrc"
+. "$HOME"/.zshrc
 ```
 
 ## Terminal

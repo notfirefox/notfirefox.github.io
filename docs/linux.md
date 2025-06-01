@@ -18,7 +18,7 @@ in order to change that behavior.
 Make sure that the directory `~/.config/environment.d/` exists.
 
 ```sh
-mkdir -p ~/.config/environment.d/
+mkdir -p "$HOME"/.config/environment.d/
 ```
 
 Create the file `~/.config/environment.d/envvars.conf` and 
@@ -170,7 +170,7 @@ tar xJvf adwaita-fonts-48.2.tar.xz && cd adwaita-fonts-48.2/
 Install the fonts into the local user directory.
 
 ```sh
-cp {sans,mono}/*.ttf "$HOME/.local/share/fonts" && fc-cache -fv
+cp {sans,mono}/*.ttf "$HOME"/.local/share/fonts && fc-cache -fv
 ```
 
 
@@ -256,20 +256,20 @@ This will interfere with the configuration that we provide.
 You can disable this behavior using the following command.
 
 ```sh
-echo 'skip_global_compinit=1' > "$HOME/.zshenv"
+echo 'skip_global_compinit=1' > "$HOME"/.zshenv
 ```
 :::
 
-Use `wget` to download the `$HOME/.zshrc` file.
+Use `wget` to download the `~/.zshrc` file.
 
 ```sh
-wget -O "$HOME/.zshrc" "https://raw.githubusercontent.com/notfirefox/zsh-config/main/.zshrc"
+wget -O "$HOME"/.zshrc "https://raw.githubusercontent.com/notfirefox/zsh-config/main/.zshrc"
 ```
 
-Source the `.zshrc` file for the changes to become effective.
+Source the `~/.zshrc` file for the changes to become effective.
 
 ```sh
-. "$HOME/.zshrc"
+. "$HOME"/.zshrc
 ```
 
 ## Userland
@@ -307,7 +307,7 @@ tar xzvf libxo-1.7.5.tar.gz && cd libxo-1.7.5/
 Configure the build environment, by running the `configure` script.
 
 ```sh
-./configure --prefix=$HOME/.local/
+./configure --prefix="$HOME"/.local/
 ```
 
 Compile and install the library.
@@ -333,9 +333,9 @@ tar xzvf v14.2.2.tar.gz && cd chimerautils-14.2.2/
 Configure the build environment, by running `meson setup`.
 
 ```sh
-PKG_CONFIG_PATH=$HOME/.local/lib/pkgconfig meson setup \
+PKG_CONFIG_PATH="$HOME"/.local/lib/pkgconfig meson setup \
     -Dc_link_args='-Wl,--rpath $ORIGIN/../lib' \
-    --prefix=$HOME/.local/ build/
+    --prefix="$HOME"/.local/ build/
 ```
 
 Compile and install the tools.

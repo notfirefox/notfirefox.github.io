@@ -153,34 +153,39 @@ This font however is currently not used by default on Debian Trixie or
 Ubuntu 24.04 LTS. It can be installed manually as described below.
 :::
 
+### Installation
+
 Download the latest release of the fonts.
 
 ```sh
 wget "https://download.gnome.org/sources/adwaita-fonts/48/adwaita-fonts-48.2.tar.xz"
 ```
 
-Extract the archive.
+Extract the archive and change the directory.
 
 ```sh
-tar xJvf adwaita-fonts-48.2.tar.xz
+tar xJvf adwaita-fonts-48.2.tar.xz && cd adwaita-fonts-48.2/
 ```
 
-Install the sans fonts.
+Install the fonts into the local user directory.
 
 ```sh
-cp adwaita-fonts-48.2/sans/*.ttf ~/.local/share/fonts/
+cp {sans,mono}/*.ttf "$HOME/.local/share/fonts" && fc-cache -fv
 ```
 
-Reload the font cache.
 
-```sh
-fc-cache -fv
-```
+### Configuration
 
-Set the system sans font.
+Set the system sans-serif font.
 
 ```sh
 gsettings set org.gnome.desktop.interface font-name "Adwaita Sans 11"
+```
+
+Set the system monospace font.
+
+```sh
+gsettings set org.gnome.desktop.interface monospace-font-name "Adwaita Mono 13"
 ```
 
 ## Keyboard

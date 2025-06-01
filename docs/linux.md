@@ -89,11 +89,11 @@ Enable the Dash to Dock extension.
 
 ::: code-group
 ```sh [Debian]
-gsettings set org.gnome.shell enabled-extensions "['dash-to-dock@micxgx.gmail.com']"
+gnome-extensions enable "dash-to-dock@micxgx.gmail.com"
 ```
 
 ```sh [Ubuntu]
-gsettings set org.gnome.shell enabled-extensions "['ubuntu-dock@ubuntu.com']"
+gnome-extensions enable "ubuntu-dock@ubuntu.com"
 ```
 :::
 

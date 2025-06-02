@@ -72,30 +72,33 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize
 
 ## Dock
 
-Make sure you have installed the 
-[Dash to Dock](https://github.com/micheleg/dash-to-dock) extension.
+### Installation
 
-::: code-group
+::: tip IMPORTANT
+On Ubuntu you do not need to install anything, as it already 
+comes with the 
+[Ubuntu Dock](https://extensions.gnome.org/extension/1300/ubuntu-dock/)
+extension. You just need to enable it using the following command.
+
+```sh
+gnome-extensions enable "ubuntu-dock@ubuntu.com"
+```
+:::
+
+Install the 
+[Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+extension.
 ```sh [Debian]
 sudo apt install gnome-shell-extension-dashtodock
 ```
 
-```sh [Ubuntu]
-sudo apt install gnome-shell-extension-ubuntu-dock
-```
-:::
+Enable the extension.
 
-Enable the Dash to Dock extension.
-
-::: code-group
-```sh [Debian]
+```sh
 gnome-extensions enable "dash-to-dock@micxgx.gmail.com"
 ```
 
-```sh [Ubuntu]
-gnome-extensions enable "ubuntu-dock@ubuntu.com"
-```
-:::
+### Configuration
 
 Move the *Show Apps* button to the left.
 

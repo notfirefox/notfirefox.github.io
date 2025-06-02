@@ -54,14 +54,6 @@ Run the following command for the changes to become effective.
 killall Dock
 ```
 
-## Editor
-
-For those who want a simple modal editor, `nvi` is an excellent choice.
-
-```sh
-brew install nvi
-```
-
 ## Finder
 
 Configure the finder to show folders first.

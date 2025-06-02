@@ -138,14 +138,6 @@ for i in $(seq 1 9); do
 done
 ```
 
-## Editor
-
-For those who want a simple modal editor, `nvi` is an excellent choice.
-
-```sh
-sudo apt install nvi
-```
-
 ## Fonts
 
 ::: info INFO

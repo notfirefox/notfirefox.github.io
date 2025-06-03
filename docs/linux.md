@@ -239,7 +239,7 @@ echo 'skip_global_compinit=1' > "$HOME"/.zshenv
 ```
 :::
 
-Use `wget` to download the `~/.zshrc` file.
+Download the `~/.zshrc` file.
 
 ```sh
 wget -O "$HOME"/.zshrc "https://raw.githubusercontent.com/notfirefox/zsh-config/main/.zshrc"

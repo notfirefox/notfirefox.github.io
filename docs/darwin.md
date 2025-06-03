@@ -99,7 +99,7 @@ On macOS the default shell is `zsh`. In order to have some niceties, such
 as colored output for some commands and Homebrew integration, we will 
 install my custom configuration.
 
-Use `curl` to download the `~/.zshrc` file.
+Download the `~/.zshrc` file.
 
 ```sh
 curl -o "$HOME"/.zshrc "https://raw.githubusercontent.com/notfirefox/zsh-config/main/.zshrc"

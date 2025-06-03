@@ -141,46 +141,30 @@ done
 ## Fonts
 
 ::: info INFO
-Older versions of the GNOME shell use the Cantarell typeface. Starting with
-GNOME version 48, a new typeface, called
-[Adwaita Fonts](https://gitlab.gnome.org/GNOME/adwaita-fonts), will be used.
-This font however is currently not used by default on Debian Trixie or 
-Ubuntu 24.04 LTS. It can be installed manually as described below.
+Depending on your distribution and GNOME shell version, a different font may 
+be used. To unify that experience, we will explicitly set the font.
 :::
 
 ### Installation
 
-Download the latest release of the fonts.
+Install the fonts.
 
 ```sh
-wget "https://download.gnome.org/sources/adwaita-fonts/48/adwaita-fonts-48.2.tar.xz"
+sudo apt install fonts-inter fonts-ubuntu
 ```
-
-Extract the archive and change the directory.
-
-```sh
-tar xJvf adwaita-fonts-48.2.tar.xz && cd adwaita-fonts-48.2/
-```
-
-Install the fonts into the local user directory.
-
-```sh
-cp {sans,mono}/*.ttf "$HOME"/.local/share/fonts && fc-cache -fv
-```
-
 
 ### Configuration
 
 Set the system sans-serif font.
 
 ```sh
-gsettings set org.gnome.desktop.interface font-name "Adwaita Sans 11"
+gsettings set org.gnome.desktop.interface font-name "Inter 11"
 ```
 
 Set the system monospace font.
 
 ```sh
-gsettings set org.gnome.desktop.interface monospace-font-name "Adwaita Mono 13"
+gsettings set org.gnome.desktop.interface monospace-font-name "Ubuntu Sans Mono 13"
 ```
 
 ## Keyboard

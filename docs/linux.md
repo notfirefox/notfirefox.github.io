@@ -147,7 +147,7 @@ be used. To unify that experience, we will explicitly set the font.
 
 ### Installation
 
-Install the fonts.
+Install the Inter and Ubuntu font.
 
 ```sh
 sudo apt install fonts-inter fonts-ubuntu

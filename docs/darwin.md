@@ -56,13 +56,19 @@ killall Dock
 
 ## Finder
 
-Configure the finder to show folders first.
+Enable the path bar for Finder.
+
+```sh
+defaults write com.apple.finder "ShowPathbar" -bool "true"
+```
+
+Show folders first in Finder.
 
 ```sh
 defaults write com.apple.finder "_FXSortFoldersFirst" -bool "true"
 ```
 
-Configure the finder to show all file extensions.
+Always show all file extensions.
 
 ```sh
 defaults write NSGlobalDomain "AppleShowAllExtensions" -bool "true"

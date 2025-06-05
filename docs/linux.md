@@ -309,6 +309,12 @@ Extract the archive and change the directory.
 tar xzvf v14.2.2.tar.gz && cd chimerautils-14.2.2/
 ```
 
+Do not compile and install the `nvi` program.
+
+```sh
+sed -i "/subdir('nvi')/d" src.freebsd/meson.build
+```
+
 Configure the build environment, by running `meson setup`.
 
 ```sh

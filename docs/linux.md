@@ -140,6 +140,24 @@ done
 
 ## Editor
 
+### Installation
+
+Install the proper `vim` package.
+
+```sh
+sudo apt install vim
+```
+
+Explicitly use the `vim` program.
+
+```sh
+for cmd in ex rview rvim vi view vim vimdiff; do
+    sudo update-alternatives --set "$cmd" /usr/bin/vim.basic
+done
+```
+
+### Configuration
+
 Download the `~/.vimrc` file.
 
 ```sh

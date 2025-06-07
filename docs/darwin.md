@@ -54,6 +54,14 @@ Run the following command for the changes to become effective.
 killall Dock
 ```
 
+## Editor
+
+Download the `~/.vimrc` file.
+
+```sh
+curl -o "$HOME"/.vimrc "https://raw.githubusercontent.com/notfirefox/vim-config/main/.vimrc"
+```
+
 ## Finder
 
 Enable the path bar for Finder.

@@ -138,6 +138,14 @@ for i in $(seq 1 9); do
 done
 ```
 
+## Editor
+
+Download the `~/.vimrc` file.
+
+```sh
+wget -O "$HOME"/.vimrc "https://raw.githubusercontent.com/notfirefox/vim-config/main/.vimrc"
+```
+
 ## Fonts
 
 ::: info INFO

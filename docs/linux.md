@@ -130,7 +130,7 @@ Disable shortcuts for Dash to Dock extension.
 gsettings set org.gnome.shell.extensions.dash-to-dock hot-keys false
 ```
 
-Disable `<Super><Number>` shortcuts for Gnome shell.
+Disable `<Super><Number>` shortcuts for GNOME shell.
 
 ```sh
 for i in $(seq 1 9); do 

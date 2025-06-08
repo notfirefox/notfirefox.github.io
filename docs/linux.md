@@ -130,7 +130,7 @@ Disable shortcuts for Dash to Dock extension.
 gsettings set org.gnome.shell.extensions.dash-to-dock hot-keys false
 ```
 
-Disable `<Super>+Num` shortcuts for Gnome shell.
+Disable `<Super><Number>` shortcuts for Gnome shell.
 
 ```sh
 for i in $(seq 1 9); do 
@@ -205,13 +205,13 @@ Use the following command to remap `Caps Lock` to the `Escape` key.
 gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape']"
 ```
 
-Allow us to use the `<Super>+Q` shortcut for closing windows.
+Allow us to use the `<Super>q` shortcut for closing windows.
 
 ```sh
 gsettings set org.gnome.desktop.wm.keybindings close "['<Super>q']"
 ```
 
-Allow us to use the `<Super>+<Control>+Q` shortcut for locking the screen.
+Allow us to use the `<Super><Control>q` shortcut for locking the screen.
 
 ```sh
 gsettings set org.gnome.settings-daemon.plugins.media-keys screensaver "['<Control><Super>q']"

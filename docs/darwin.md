@@ -8,26 +8,6 @@ Documenting useful configuration options for macOS. Some of these
 customizations will involve the `defaults` command. See 
 [macos-defaults.com](https://macos-defaults.com/) for more information.
 
-## Homebrew
-
-Unlike popular Linux-based systems, macOS does not ship with a package
-manager out of the box. The de facto default package manager for macOS is 
-[Homebrew](https://brew.sh/), which can be installed using the following 
-command.
-
-```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-Your `~/.zshrc` file should also contain this to properly 
-load `brew` at shell startup:
-
-```sh
-eval "$(/opt/homebrew/bin/brew shellenv)"
-```
-
-See the [Shell](./darwin.md#shell) section below, which already takes care of this.
-
 ## Dock
 
 Automatically hide the dock to save some vertical space.
@@ -106,6 +86,26 @@ Tell Git about the `~/.gitignore` file.
 ```sh
 git config --global core.excludesfile "$HOME"/.gitignore
 ```
+
+## Homebrew
+
+Unlike popular Linux-based systems, macOS does not ship with a package
+manager out of the box. The de facto default package manager for macOS is 
+[Homebrew](https://brew.sh/), which can be installed using the following 
+command.
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+Your `~/.zshrc` file should also contain this to properly 
+load `brew` at shell startup:
+
+```sh
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+See the [Shell](./darwin.md#shell) section below, which already takes care of this.
 
 ## Shell
 

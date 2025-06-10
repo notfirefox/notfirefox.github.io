@@ -124,12 +124,3 @@ Source the `~/.zshrc` file for the changes to become effective.
 ```sh
 . "$HOME"/.zshrc
 ```
-
-## Terminal
-
-Instead of using Apple Terminal, it is recommended to use something like
-[iTerm2](https://iterm2.com/) instead.
-
-```sh
-brew install --cask iterm2
-```

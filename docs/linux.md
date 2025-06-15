@@ -42,10 +42,10 @@ Enable dark mode.
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 ```
 
-Disable the desktop icons extension.
+Hide the home folder on the desktop.
 
 ```sh
-gnome-extensions disable ding@rastersoft.com
+gsettings set org.gnome.shell.extensions.ding show-home false
 ```
 
 Disable the app app indicators extension.

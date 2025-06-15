@@ -48,12 +48,6 @@ Hide the home folder on the desktop.
 gsettings set org.gnome.shell.extensions.ding show-home false
 ```
 
-Disable the app app indicators extension.
-
-```sh
-gnome-extensions disable ubuntu-appindicators@ubuntu.com
-```
-
 ## Dock
 
 Restrict the height of the dock.

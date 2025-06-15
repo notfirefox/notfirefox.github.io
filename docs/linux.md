@@ -68,6 +68,12 @@ Do not make the dock fixed.
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed false
 ```
 
+Do not intelligently hide and show the dock.
+
+```sh
+gsettings set org.gnome.shell.extensions.dash-to-dock intellihide false
+```
+
 Move the dock to the bottom.
 
 ```sh

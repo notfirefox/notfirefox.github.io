@@ -4,10 +4,12 @@ outline: deep
 
 # Linux
 
-Configuration for Linux-based systems. To ensure some level of uniformity,
-a Debian-based system will be assumed throughout this document. We will also
-assume the usage of the [GNOME](https://www.gnome.org/) desktop environment, 
-which enables us to customize the desktop using the `gsettings` utility.
+Linux-based systems have the tendency to diverge quite a bit. This makes it a
+non-trivial task to provide documentation that works for every system and 
+variation. [Ubuntu](https://ubuntu.com/) provides a consistent and reliable
+desktop experience, based on the [GNOME](https://www.gnome.org/) desktop 
+environment and the Linux kernel. We will assume a Ubuntu-based system 
+throughout this document.
 
 ## Browser
 
@@ -34,94 +36,48 @@ natively on Wayland.
 
 ## Desktop
 
-::: tip IMPORTANT
-Ubuntu ships a customized version of the GNOME shell, whereas
-this document assumes a stock configuration as the starting point.
-We can restore the stock experience by installing this package.
-
-```sh
-sudo apt install vanilla-gnome-default-settings
-```
-
-Log out of the current session. When logging back in, select
-`GNOME` instead of `Ubuntu`. Then reset all settings using `dconf`. 
-
-```sh
-dconf reset -f /
-```
-
-:::
-
 Enable dark mode.
 
 ```sh
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 ```
 
-Disable hot corners.
+Disable the desktop icons extension.
 
 ```sh
-gsettings set org.gnome.desktop.interface enable-hot-corners false
+gnome-extensions disable ding@rastersoft.com
 ```
 
-Restore the maximize and minimize buttons.
+Disable the app app indicators extension.
 
 ```sh
-gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"
+gnome-extensions disable ubuntu-appindicators@ubuntu.com
 ```
 
 ## Dock
 
-### Installation
-
-::: tip IMPORTANT
-On Ubuntu you do not need to install anything, as it already 
-comes with the 
-[Ubuntu Dock](https://extensions.gnome.org/extension/1300/ubuntu-dock/)
-extension. You just need to enable it using the following command.
+Restrict the height of the dock.
 
 ```sh
-gnome-extensions enable "ubuntu-dock@ubuntu.com"
-```
-:::
-
-Install the 
-[Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
-extension.
-```sh [Debian]
-sudo apt install gnome-shell-extension-dashtodock
+gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
 ```
 
-Enable the extension.
+Do not make the dock fixed.
 
 ```sh
-gnome-extensions enable "dash-to-dock@micxgx.gmail.com"
+gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed false
 ```
 
-### Configuration
+Move the dock to the bottom.
+
+```sh
+gsettings set org.gnome.shell.extensions.dash-to-dock dock-position 'BOTTOM'
+```
 
 Move the *Show Apps* button to the left.
 
 ```sh
 gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
-```
-
-Disable intelligent hide.
-
-```sh
-gsettings set org.gnome.shell.extensions.dash-to-dock intellihide false
-```
-
-Apply the custom theme.
-
-```sh
-gsettings set org.gnome.shell.extensions.dash-to-dock apply-custom-theme true
-```
-
-Do not show the overview when logging in.
-
-```sh
-gsettings set org.gnome.shell.extensions.dash-to-dock disable-overview-on-startup true
 ```
 
 Disable shortcuts for Dash to Dock extension.
@@ -154,35 +110,6 @@ Download the `~/.vimrc` file.
 
 ```sh
 wget -O "$HOME"/.vimrc "https://raw.githubusercontent.com/notfirefox/vim-config/main/.vimrc"
-```
-
-## Fonts
-
-::: info INFO
-Depending on your distribution and GNOME shell version, a different font may 
-be used. To unify that experience, we will explicitly set the font.
-:::
-
-### Installation
-
-Install the Inter and Ubuntu font.
-
-```sh
-sudo apt install fonts-inter fonts-ubuntu
-```
-
-### Configuration
-
-Set the system sans-serif font.
-
-```sh
-gsettings set org.gnome.desktop.interface font-name "Inter 11"
-```
-
-Set the system monospace font.
-
-```sh
-gsettings set org.gnome.desktop.interface monospace-font-name "Ubuntu Sans Mono 13"
 ```
 
 ## Keyboard
@@ -272,10 +199,10 @@ chsh -s /bin/zsh && exec zsh
 
 ### Configuration
 
-::: warning WARNING
-On Ubuntu the completion system will be enabled globally.
-This will interfere with the configuration that we provide.
-You can disable this behavior using the following command.
+::: info INFO
+Our configuration enables the Korn shell emulation and takes care of the 
+completion initialization by itself, therefore we will disable the global 
+initialization, that is provided by default.
 
 ```sh
 echo 'skip_global_compinit=1' > "$HOME"/.zshenv

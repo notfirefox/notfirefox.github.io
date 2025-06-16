@@ -204,6 +204,8 @@ Our configuration enables the Korn shell emulation and takes care of the
 completion initialization by itself, therefore we will disable the global 
 initialization, that is provided by default.
 
+**WARNING:** This will overwrite your `~/.zshenv` file.
+
 ```sh
 echo 'skip_global_compinit=1' > "$HOME"/.zshenv
 ```

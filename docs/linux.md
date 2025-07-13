@@ -272,13 +272,13 @@ make && make install
 Now we can download and install the `chimerautils` userland tools.
 
 ```sh
-wget "https://github.com/chimera-linux/chimerautils/archive/refs/tags/v14.2.2.tar.gz"
+wget "https://github.com/chimera-linux/chimerautils/archive/refs/tags/v14.3.1.tar.gz"
 ```
 
 Extract the archive and change the directory.
 
 ```sh
-tar xzvf v14.2.2.tar.gz && cd chimerautils-14.2.2/
+tar xzvf v14.3.1.tar.gz && cd chimerautils-14.3.1/
 ```
 
 Do not compile and install the `nvi` program.

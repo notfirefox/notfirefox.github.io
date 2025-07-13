@@ -284,7 +284,7 @@ tar xzvf v14.3.1.tar.gz && cd chimerautils-14.3.1/
 Do not compile and install the `nvi` program.
 
 ```sh
-sed -i "/subdir('nvi')/d" src.freebsd/meson.build
+sed "/subdir('nvi')/d" -i.bak src.freebsd/meson.build
 ```
 
 Configure the build environment, by running `meson setup`.

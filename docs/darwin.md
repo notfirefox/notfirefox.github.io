@@ -124,3 +124,13 @@ Source the `~/.zshrc` file for the changes to become effective.
 ```sh
 . "$HOME"/.zshrc
 ```
+
+## Terminal
+
+On macOS a message is being printed when opening a new terminal window 
+or tab. This message can be suppressed, by creating a `.hushlogin` file 
+inside of the home directory.
+
+```sh
+touch "$HOME"/.hushlogin
+```
